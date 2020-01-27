@@ -6,11 +6,9 @@ Present an appealing data visualization website that inform users of average sof
 
 ## Functionality & MVP
 
-* Select a design and data will display for the top 10 metropolitan cities  
+* Select a bubble and it will enlarge with information
+* Dragging the bubble around will displace bubbles around but it'll all tie back together 
 * Upon further clicking, user will be taken to the website for more specific breakdown of the location and salary
-* Filter job salaries by positions (Junior, Senior, Staff Engineers, etc) 
-* Filtered will be lit up while others will be grayed out 
-* Bubbles will be color coordinated to specific cities. Each city will have smaller bubbles relating the specific job title   with decrease in bubble size based on title. 
 
 ## Wireframes
 
@@ -27,3 +25,6 @@ Day 1: Setup all necessary modules, webpack up and running, get the barebone of 
 Day 2:  Continue learning how to implement and function the API. Implement and learn proper usage of D3. Be able to render at least 1 city statistics with full functionality and features. 
 
 Day 3: Finish adding all the other cities and make sure all are functioning properly with D3.
+
+Day 4: Be able to drag the bubble arounds and clicking the bubble will enlarge it. 
+
