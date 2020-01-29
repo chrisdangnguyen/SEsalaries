@@ -1,0 +1,23 @@
+{
+  "name": "se_salaries",
+  "version": "1.0.0",
+  "description": "## Background",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisdangnguyen/SEsalaries.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisdangnguyen/SEsalaries/issues"
+  },
+  "homepage": "https://github.com/chrisdangnguyen/SEsalaries#readme",
+  "dependencies": {
+    "d3": "^5.15.0"
+  }
+}
