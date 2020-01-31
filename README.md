@@ -1,3 +1,5 @@
+# README
+
 # SEsalaries
 
 ## Background
@@ -11,6 +13,8 @@ Present an appealing data visualization website that inform users of average sof
 * Upon further clicking, user will be taken to the website for more specific breakdown of the location and salary
 
 ## Wireframes
+
+![sesalaries home page](https://github.com/chrisdangnguyen/SEsalaries/blob/master/Bubble.png)
 
 
 ## Architecture and Technologies
