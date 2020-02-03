@@ -10,10 +10,9 @@ function code() {
   let height = +svg.attr("height");
   let centerX = width * 0.55;
   let centerY = height * 0.5;
-  // let strength = .05;
   let focusedNode;
 
-  let format = d3.format(",d");
+  // let format = d3.format(",d");
 
   let scaleColor = d3.scaleOrdinal(d3.schemeSet3);
 
@@ -30,8 +29,8 @@ function code() {
     .forceSimulation()
     .force("charge", d3.forceManyBody())
     .force("collide", forceCollide)
-    .force("x", d3.forceX(centerX)) //.strength(strength))
-    .force("y", d3.forceY(centerY)); //.strength(strength));
+    .force("x", d3.forceX(centerX))
+    .force("y", d3.forceY(centerY));
 
   // reduce number of circles on mobile screen due to slow computation
   // if (
@@ -75,7 +74,7 @@ function code() {
     .enter()
     .append("g")
     .attr("class", "node")
-    .attr("id", d => d.cat)
+    // .attr("id", d => d.cat)
     .call(
       d3
         .drag()
@@ -195,14 +194,6 @@ function code() {
 
   })
 
-
-    // legend.append("text")
-    //   .attr("x", width - 24)
-    //   .attr("y", 9)
-    //   .attr("dy", ".35em")
-    //   .style("text-anchor", "end")
-    //   .text(function (d) { return d; });
-
   // let sizeScale = d3
   //   .scaleOrdinal()
   //   .domain([''])
@@ -292,8 +283,6 @@ function code() {
           lastNode.r = lastNode.radius;
         });
     }
-
-    // if (!d3.event.active) simulation.alphaTarget(0.5).restart();
 
     d3.transition()
       .duration(1000)
@@ -395,4 +384,5 @@ function code() {
   
 }
 
-main.innerHTML = code();
+// main.innerHTML = code();
+module.export = code();

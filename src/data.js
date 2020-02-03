@@ -28,13 +28,13 @@ let data = [
     icon: "./img/boston.svg",
     desc: "$148,160"
   }, 
-  {
-    cat: "Boston",
-    name: "Software Engineer 5",
-    value: 9,
-    icon: "./img/boston.svg",
-    desc: "$168,223"
-  },
+  // {
+  //   cat: "Boston",
+  //   name: "Software Engineer 5",
+  //   value: 9,
+  //   icon: "./img/boston.svg",
+  //   desc: "$168,223"
+  // },
   {
     cat: "Chicago",
     name: "Software Engineer 1",
@@ -63,13 +63,13 @@ let data = [
     icon: "./img/chicago.svg",
     desc: "$139,142"
   },
-  {
-    cat: "Chicago",
-    name: "Software Engineer 5",
-    value: 9,
-    icon: "./img/chicago.svg",
-    desc: "$157,984"
-  },
+  // {
+  //   cat: "Chicago",
+  //   name: "Software Engineer 5",
+  //   value: 9,
+  //   icon: "./img/chicago.svg",
+  //   desc: "$157,984"
+  // },
   {
     cat: "Dallas",
     name: "Software Engineer 1",
@@ -98,13 +98,13 @@ let data = [
     icon: "./img/dallas.svg",
     desc: "$129,999"
   },
-  {
-    cat: "Dallas",
-    name: "Software Engineer 5",
-    value: 9,
-    icon: "./img/dallas.svg",
-    desc: "$147,603"
-  },
+  // {
+  //   cat: "Dallas",
+  //   name: "Software Engineer 5",
+  //   value: 9,
+  //   icon: "./img/dallas.svg",
+  //   desc: "$147,603"
+  // },
   {
     cat: "Los Angeles",
     name: "Software Engineer 1",
@@ -133,13 +133,13 @@ let data = [
     icon: "./img/los_angeles.svg",
     desc: "$147,766"
   },
-  {
-    cat: "Los Angeles",
-    name: "Software Engineer 5",
-    value: 9,
-    icon: "./img/los_angeles.svg",
-    desc: "$167,776"
-  },
+  // {
+  //   cat: "Los Angeles",
+  //   name: "Software Engineer 5",
+  //   value: 9,
+  //   icon: "./img/los_angeles.svg",
+  //   desc: "$167,776"
+  // },
   {
     cat: "Miami",
     name: "Software Engineer 1",
@@ -168,13 +168,13 @@ let data = [
     icon: "./img/miami.svg",
     desc: "$127,787"
   },
-  {
-    cat: "Miami",
-    name: "Software Engineer 5",
-    value: 9,
-    icon: "./img/miami.svg",
-    desc: "$145,091"
-  },
+  // {
+  //   cat: "Miami",
+  //   name: "Software Engineer 5",
+  //   value: 9,
+  //   icon: "./img/miami.svg",
+  //   desc: "$145,091"
+  // },
   {
     cat: "New York",
     name: "Software Engineer 1",
@@ -203,13 +203,13 @@ let data = [
     icon: "./img/new_york.svg",
     desc: "$158,832"
   },
-  {
-    cat: "New York",
-    name: "Software Engineer 5",
-    value: 9,
-    icon: "./img/new_york.svg",
-    desc: "$180,340"
-  },
+  // {
+  //   cat: "New York",
+  //   name: "Software Engineer 5",
+  //   value: 9,
+  //   icon: "./img/new_york.svg",
+  //   desc: "$180,340"
+  // },
   {
     cat: "Philadelphia",
     name: "Software Engineer 1",
@@ -238,13 +238,13 @@ let data = [
     icon: "./img/philadelphia.svg",
     desc: "$141,006"
   },
-  {
-    cat: "Philadelphia",
-    name: "Software Engineer 5",
-    value: 9,
-    icon: "./img/philadelphia.svg",
-    desc: "$160,100"
-  },
+  // {
+  //   cat: "Philadelphia",
+  //   name: "Software Engineer 5",
+  //   value: 9,
+  //   icon: "./img/philadelphia.svg",
+  //   desc: "$160,100"
+  // },
   {
     cat: "San Diego",
     name: "Software Engineer 1",
@@ -273,83 +273,83 @@ let data = [
     icon: "./img/san_diego.svg",
     desc: "$141,133"
   },
-  {
-    cat: "San Diego",
-    name: "Software Engineer 5",
-    value: 9,
-    icon: "./img/san_diego.svg",
-    desc: "$160,244"
-  },
-  {
-    cat: "San Francisco",
-    name: "Software Engineer 1",
-    value: 1,
-    icon: "./img/san_francisco.svg",
-    desc: "$85,838"
-  },
-  {
-    cat: "San Francisco",
-    name: "Software Engineer 2",
-    value: 3,
-    icon: "./img/san_francisco.svg",
-    desc: "$110,160"
-  },
-  {
-    cat: "San Francisco",
-    name: "Software Engineer 3",
-    value: 5,
-    icon: "./img/san_francisco.svg",
-    desc: "$136,657"
-  },
-  {
-    cat: "San Francisco",
-    name: "Software Engineer 4",
-    value: 7,
-    icon: "./img/san_francisco.svg",
-    desc: "$164,476"
-  },
-  {
-    cat: "San Francisco",
-    name: "Software Engineer 5",
-    value: 9,
-    icon: "./img/san_francisco.svg",
-    desc: "$186,748"
-  },
-  {
-    cat: "Seattle",
-    name: "Software Engineer 1",
-    value: 1,
-    icon: "./img/seattle.svg",
-    desc: "$74,946"
-  },
-  {
-    cat: "Seattle",
-    name: "Software Engineer 2",
-    value: 3,
-    icon: "./img/seattle.svg",
-    desc: "$96,181"
-  },
-  {
-    cat: "Seattle",
-    name: "Software Engineer 3",
-    value: 5,
-    icon: "./img/seattle.svg",
-    desc: "$119,316"
-  },
-  {
-    cat: "Seattle",
-    name: "Software Engineer 4",
-    value: 7,
-    icon: "./img/seattle.svg",
-    desc: "$143,605"
-  },
-  {
-    cat: "Seattle",
-    name: "Software Engineer 5",
-    value: 9,
-    icon: "./img/seattle.svg",
-    desc: "$163,051"
-  }
+  // {
+  //   cat: "San Diego",
+  //   name: "Software Engineer 5",
+  //   value: 9,
+  //   icon: "./img/san_diego.svg",
+  //   desc: "$160,244"
+  // },
+  // {
+  //   cat: "San Francisco",
+  //   name: "Software Engineer 1",
+  //   value: 1,
+  //   icon: "./img/san_francisco.svg",
+  //   desc: "$85,838"
+  // },
+  // {
+  //   cat: "San Francisco",
+  //   name: "Software Engineer 2",
+  //   value: 3,
+  //   icon: "./img/san_francisco.svg",
+  //   desc: "$110,160"
+  // },
+  // {
+  //   cat: "San Francisco",
+  //   name: "Software Engineer 3",
+  //   value: 5,
+  //   icon: "./img/san_francisco.svg",
+  //   desc: "$136,657"
+  // },
+  // {
+  //   cat: "San Francisco",
+  //   name: "Software Engineer 4",
+  //   value: 7,
+  //   icon: "./img/san_francisco.svg",
+  //   desc: "$164,476"
+  // },
+  // {
+  //   cat: "San Francisco",
+  //   name: "Software Engineer 5",
+  //   value: 9,
+  //   icon: "./img/san_francisco.svg",
+  //   desc: "$186,748"
+  // },
+  // {
+  //   cat: "Seattle",
+  //   name: "Software Engineer 1",
+  //   value: 1,
+  //   icon: "./img/seattle.svg",
+  //   desc: "$74,946"
+  // },
+  // {
+  //   cat: "Seattle",
+  //   name: "Software Engineer 2",
+  //   value: 3,
+  //   icon: "./img/seattle.svg",
+  //   desc: "$96,181"
+  // },
+  // {
+  //   cat: "Seattle",
+  //   name: "Software Engineer 3",
+  //   value: 5,
+  //   icon: "./img/seattle.svg",
+  //   desc: "$119,316"
+  // },
+  // {
+  //   cat: "Seattle",
+  //   name: "Software Engineer 4",
+  //   value: 7,
+  //   icon: "./img/seattle.svg",
+  //   desc: "$143,605"
+  // },
+  // {
+  //   cat: "Seattle",
+  //   name: "Software Engineer 5",
+  //   value: 9,
+  //   icon: "./img/seattle.svg",
+  //   desc: "$163,051"
+  // }
 ];
 
 
