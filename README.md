@@ -2,6 +2,8 @@
 
 # SEsalaries
 
+[Software Engineer Average Salaries](https://chrisdangnguyen.github.io/SEsalaries/)
+
 ## Background
 
 Present an appealing data visualization website that inform users of average software engineer salaries for multiple levels across popular metropolitan cities in the United States. User will have the experience to easily access and retrieve information through a click of a few buttons. 
