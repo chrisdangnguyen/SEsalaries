@@ -166,14 +166,14 @@ function code() {
     .style("fill", "whitesmoke")
     .call(legendOrdinal)
 
-  document.addEventListener('DOMContentLoaded', () => {
-    document.querySelectorAll(".legendCells > g").forEach((el, idx) => {
-      el.setAttribute('id', el.textContent)
-    });
-  })
+  // document.addEventListener('DOMContentLoaded', () => {
+  //   document.querySelectorAll(".legendCells > g").forEach((el, idx) => {
+  //     el.setAttribute('id', el.textContent)
+  //   });
+  // })
 
 
-    let clicked = "";
+  //   let clicked = "";
 
     // d3.selectAll('legend')
     //   .on('click', function(d) {
@@ -185,8 +185,8 @@ function code() {
 
     // d3.selectAll("."+ d.cat).style("visibility", "hidden")
     
-    console.log(d3.selectAll('.legend'))
-    console.log(d3.selectAll('.cell'))
+    // console.log(d3.selectAll('.legend'))
+    // console.log(d3.selectAll('.cell'))
 
     
     // style("opacity", 1)
