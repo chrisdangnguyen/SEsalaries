@@ -15,8 +15,8 @@ function code() {
 
   let format = d3.format(",d");
 
-  // let scaleColor = d3.scaleOrdinal(d3.schemeSet3);
-  let scaleColor = d3.scaleOrdinal(d3.schemePastel2);
+  let scaleColor = d3.scaleOrdinal(d3.schemeSet3);
+  // let scaleColor = d3.scaleOrdinal(d3.schemePastel2);
 
   // use pack to calculate radius of the circle
   let pack = d3
@@ -255,6 +255,7 @@ function code() {
 
   infoBox
     .append("p")
+    .append("text")
     .classed("circle-overlay__body", true)
     .html(d => d.desc)
 

@@ -1,207 +1,354 @@
 
 let data = [
   {
-    cat: "San Francisco",
-    name: "SE 1",
+    cat: "Boston",
+    name: "Software Engineer 1",
     value: 1,
-    icon: "./img/san_francisco.svg",
-    desc: "what it dodo babeeee"
+    icon: "./img/boston.svg",
+    desc: "$77,323"
   },
   {
-    cat: "San Francisco",
-    name: "SE 2",
-    value: 2,
-    icon: "./img/san_francisco.svg",
-    desc: ""
-  },
-  {
-    cat: "San Francisco",
-    name: "SE 3",
+    cat: "Boston",
+    name: "Software Engineer 2",
     value: 3,
-    icon: "./img/san_francisco.svg",
-    desc: "fniafnajnsjnaoinosnfsngosingsns fn;anfjanfjanfjanjanakjnjasfnjkafnjanajnnajfnafnanjkfnanfnakjfnak;nfjknjkanfjkanakn;fjkagnjf nfosng sngos;n osngangsjngsjngs ijanf bfiahbfaifbnaijnfjka njafnbajkfnajkfnbajfnajkfnajkfnskjj sfjkfns jbnjkfkafnskj.fnbskjfnbs.kjs"
+    icon: "./img/boston.svg",
+    desc: "$99,232"
   },
   {
-    cat: "San Francisco",
-    name: "SE 4",
-    value: 4,
-    icon: "./img/san_francisco.svg",
-    desc: ""
+    cat: "Boston",
+    name: "Software Engineer 3",
+    value: 5,
+    icon: "./img/boston.svg",
+    desc: "$123,101"
+  }, 
+  {
+    cat: "Boston",
+    name: "Software Engineer 4",
+    value: 7,
+    icon: "./img/boston.svg",
+    desc: "$148,160"
+  }, 
+  {
+    cat: "Boston",
+    name: "Software Engineer 5",
+    value: 9,
+    icon: "./img/boston.svg",
+    desc: "$168,223"
   },
   {
-    cat: "Los Angeles",
-    name: "SE 1",
+    cat: "Chicago",
+    name: "Software Engineer 1",
     value: 1,
-    icon: "./img/los_angeles.svg",
-    desc: ""
+    icon: "./img/chicago.svg",
+    desc: "$72,617"
   },
   {
-    cat: "Los Angeles",
-    name: "SE 2",
-    value: 2,
-    icon: "./img/los_angeles.svg",
-    desc: ""
-  },
-  {
-    cat: "Los Angeles",
-    name: "SE 3",
+    cat: "Chicago",
+    name: "Software Engineer 2",
     value: 3,
-    icon: "./img/los_angeles.svg",
-    desc: ""
+    icon: "./img/chicago.svg",
+    desc: "$93,192"
   },
   {
-    cat: "New York",
-    name: "SE 1",
-    value: 1,
-    icon: "./img/new_york.svg",
-    desc: ""
+    cat: "Chicago",
+    name: "Software Engineer 3",
+    value: 5,
+    icon: "./img/chicago.svg",
+    desc: "$115,608"
   },
   {
-    cat: "New York",
-    name: "SE 2",
-    value: 2,
-    icon: "./img/new_york.svg",
-    desc: ""
+    cat: "Chicago",
+    name: "Software Engineer 4",
+    value: 7,
+    icon: "./img/chicago.svg",
+    desc: "$139,142"
   },
   {
-    cat: "Seattle",
-    name: "Se 3",
-    value: 1,
-    icon: "./img/seattle.svg",
-    desc: ""
-  },
-  {
-    cat: "Seattle",
-    name: "SE 1",
-    value: 2,
-    icon: "./img/seattle.svg",
-    desc: ""
-  },
-  {
-    cat: "Seattle",
-    name: "SE 1",
-    value: 3,
-    icon: "./img/seattle.svg",
-    desc: ""
+    cat: "Chicago",
+    name: "Software Engineer 5",
+    value: 9,
+    icon: "./img/chicago.svg",
+    desc: "$157,984"
   },
   {
     cat: "Dallas",
-    name: "SE 1",
+    name: "Software Engineer 1",
     value: 1,
     icon: "./img/dallas.svg",
-    desc: ""
+    desc: "$67,845"
   },
   {
     cat: "Dallas",
-    name: "SE 1",
-    value: 2,
+    name: "Software Engineer 2",
+    value: 3,
     icon: "./img/dallas.svg",
-    desc: ""
+    desc: "$87,068"
+  },
+  {
+    cat: "Dallas",
+    name: "Software Engineer 3",
+    value: 5,
+    icon: "./img/dallas.svg",
+    desc: "$108,012"
+  },
+  {
+    cat: "Dallas",
+    name: "Software Engineer 4",
+    value: 7,
+    icon: "./img/dallas.svg",
+    desc: "$129,999"
+  },
+  {
+    cat: "Dallas",
+    name: "Software Engineer 5",
+    value: 9,
+    icon: "./img/dallas.svg",
+    desc: "$147,603"
+  },
+  {
+    cat: "Los Angeles",
+    name: "Software Engineer 1",
+    value: 1,
+    icon: "./img/los_angeles.svg",
+    desc: "$77,117"
+    },
+  {
+    cat: "Los Angeles",
+    name: "Software Engineer 2",
+    value: 3,
+    icon: "./img/los_angeles.svg",
+    desc: "$98,968"
+  },
+  {
+    cat: "Los Angeles",
+    name: "Software Engineer 3",
+    value: 5,
+    icon: "./img/los_angeles.svg",
+    desc: "$112,773"
+  },
+  {
+    cat: "Los Angeles",
+    name: "Software Engineer 4",
+    value: 7,
+    icon: "./img/los_angeles.svg",
+    desc: "$147,766"
+  },
+  {
+    cat: "Los Angeles",
+    name: "Software Engineer 5",
+    value: 9,
+    icon: "./img/los_angeles.svg",
+    desc: "$167,776"
   },
   {
     cat: "Miami",
-    name: "SE 1",
+    name: "Software Engineer 1",
     value: 1,
     icon: "./img/miami.svg",
-    desc: ""
+    desc: "$66,691"
   },
   {
     cat: "Miami",
-    name: "SE 1",
+    name: "Software Engineer 2",
     value: 3,
     icon: "./img/miami.svg",
-    desc: ""
+    desc: "$85,587"
   },
   {
-    cat: "Chicago",
-    name: "SE 1",
+    cat: "Miami",
+    name: "Software Engineer 3",
+    value: 5,
+    icon: "./img/miami.svg",
+    desc: "$106,174"
+  },
+  {
+    cat: "Miami",
+    name: "Software Engineer 4",
+    value: 7,
+    icon: "./img/miami.svg",
+    desc: "$127,787"
+  },
+  {
+    cat: "Miami",
+    name: "Software Engineer 5",
+    value: 9,
+    icon: "./img/miami.svg",
+    desc: "$145,091"
+  },
+  {
+    cat: "New York",
+    name: "Software Engineer 1",
     value: 1,
-    icon: "./img/chicago.svg",
-    desc: ""
+    icon: "./img/new_york.svg",
+    desc: "$82,892"
   },
   {
-    cat: "Chicago",
-    name: "SE 1",
-    value: 2,
-    icon: "./img/chicago.svg",
-    desc: ""
-  },
-  {
-    cat: "Chicago",
-    name: "SE 1",
+    cat: "New York",
+    name: "Software Engineer 2",
     value: 3,
-    icon: "./img/chicago.svg",
-    desc: ""
+    icon: "./img/new_york.svg",
+    desc: "$106,379"
+  },
+  {
+    cat: "New York",
+    name: "Software Engineer 3",
+    value: 5,
+    icon: "./img/new_york.svg",
+    desc: "$131,967"
+  },
+  {
+    cat: "New York",
+    name: "Software Engineer 4",
+    value: 7,
+    icon: "./img/new_york.svg",
+    desc: "$158,832"
+  },
+  {
+    cat: "New York",
+    name: "Software Engineer 5",
+    value: 9,
+    icon: "./img/new_york.svg",
+    desc: "$180,340"
   },
   {
     cat: "Philadelphia",
-    name: "SE 1",
+    name: "Software Engineer 1",
     value: 1,
     icon: "./img/philadelphia.svg",
-    desc: ""
+    desc: "$73,580"
   },
   {
     cat: "Philadelphia",
-    name: "SE 1",
-    value: 2,
-    icon: "./img/philadelphia.svg",
-    desc: ""
-  },
-  {
-    cat: "Philadelphia",
-    name: "SE 1",
-    value: 4,
-    icon: "./img/philadelphia.svg",
-    desc: ""
-  },
-  {
-    cat: "Philadelphia",
-    name: "SE 1",
+    name: "Software Engineer 2",
     value: 3,
     icon: "./img/philadelphia.svg",
-    desc: ""
+    desc: "$94,440"
+  },
+  {
+    cat: "Philadelphia",
+    name: "Software Engineer 3",
+    value: 5,
+    icon: "./img/philadelphia.svg",
+    desc: "$117,157"
+  },
+  {
+    cat: "Philadelphia",
+    name: "Software Engineer 4",
+    value: 7,
+    icon: "./img/philadelphia.svg",
+    desc: "$141,006"
+  },
+  {
+    cat: "Philadelphia",
+    name: "Software Engineer 5",
+    value: 9,
+    icon: "./img/philadelphia.svg",
+    desc: "$160,100"
   },
   {
     cat: "San Diego",
-    name: "SE 1",
+    name: "Software Engineer 1",
     value: 1,
     icon: "./img/san_diego.svg",
-    desc: ""
+    desc: "$73,656"
   },
   {
     cat: "San Diego",
-    name: "SE 1",
-    value: 2,
+    name: "Software Engineer 2",
+    value: 3,
     icon: "./img/san_diego.svg",
-    desc: ""
+    desc: "$95,525"
   },
   {
     cat: "San Diego",
-    name: "SE 1",
-    value: 3,
+    name: "Software Engineer 3",
+    value: 5,
     icon: "./img/san_diego.svg",
-    desc: ""
+    desc: "$117,262"
   },
   {
-    cat: "Boston",
-    name: "SE 1",
+    cat: "San Diego",
+    name: "Software Engineer 4",
+    value: 7,
+    icon: "./img/san_diego.svg",
+    desc: "$141,133"
+  },
+  {
+    cat: "San Diego",
+    name: "Software Engineer 5",
+    value: 9,
+    icon: "./img/san_diego.svg",
+    desc: "$160,244"
+  },
+  {
+    cat: "San Francisco",
+    name: "Software Engineer 1",
     value: 1,
-    icon: "./img/boston.svg",
-    desc: ""
+    icon: "./img/san_francisco.svg",
+    desc: "$85,838"
   },
   {
-    cat: "Boston",
-    name: "SE 1",
-    value: 2,
-    icon: "./img/boston.svg",
-    desc: ""
-  },
-  {
-    cat: "Boston",
-    name: "SE 1",
+    cat: "San Francisco",
+    name: "Software Engineer 2",
     value: 3,
-    icon: "./img/boston.svg",
-    desc: ""
+    icon: "./img/san_francisco.svg",
+    desc: "$110,160"
+  },
+  {
+    cat: "San Francisco",
+    name: "Software Engineer 3",
+    value: 5,
+    icon: "./img/san_francisco.svg",
+    desc: "$136,657"
+  },
+  {
+    cat: "San Francisco",
+    name: "Software Engineer 4",
+    value: 7,
+    icon: "./img/san_francisco.svg",
+    desc: "$164,476"
+  },
+  {
+    cat: "San Francisco",
+    name: "Software Engineer 5",
+    value: 9,
+    icon: "./img/san_francisco.svg",
+    desc: "$186,748"
+  },
+  {
+    cat: "Seattle",
+    name: "Software Engineer 1",
+    value: 1,
+    icon: "./img/seattle.svg",
+    desc: "$74,946"
+  },
+  {
+    cat: "Seattle",
+    name: "Software Engineer 2",
+    value: 3,
+    icon: "./img/seattle.svg",
+    desc: "$96,181"
+  },
+  {
+    cat: "Seattle",
+    name: "Software Engineer 3",
+    value: 5,
+    icon: "./img/seattle.svg",
+    desc: "$119,316"
+  },
+  {
+    cat: "Seattle",
+    name: "Software Engineer 4",
+    value: 7,
+    icon: "./img/seattle.svg",
+    desc: "$143,605"
+  },
+  {
+    cat: "Seattle",
+    name: "Software Engineer 5",
+    value: 9,
+    icon: "./img/seattle.svg",
+    desc: "$163,051"
   }
 ];
 
