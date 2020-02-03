@@ -60,7 +60,8 @@ function code() {
         y: centerY + (node.y - centerY) * 3,
         r: 0, // for tweening
         radius: node.r, //original radius
-        id: data.cat + "." + data.name.replace(/\s/g, "-"),
+        id: data.cat,
+        // + "." + data.name.replace(/\s/g, "-"),
         cat: data.cat,
         name: data.name,
         value: data.value,
@@ -77,6 +78,7 @@ function code() {
     .enter()
     .append("g")
     .attr("class", "node")
+    .attr("id", d => d.cat)
     .call(
       d3
         .drag()
@@ -98,9 +100,9 @@ function code() {
 
   node
     .append("circle")
-    .attr("id", d => d.id)
     .attr("r", 0)
     .style("fill", d => scaleColor(d.cat))
+    .attr("id", d => d.cat)
     .style("opacity", 0.5)
     .transition()
     .duration(8000)
@@ -163,30 +165,29 @@ function code() {
     .style("font-weight", "thin")
     .style("fill", "whitesmoke")
     .call(legendOrdinal)
-    
+
+  document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll(".legendCells > g").forEach((el, idx) => {
+      el.setAttribute('id', el.textContent)
+    });
+  })
+
+
     let clicked = "";
 
-    d3.selectAll('legend')
-      .on('click', function(d) {
-        d3.selectAll(".node").filter(function(e){
-          if ( d.color !== e.color) 
-          return e.species !== d.color
-        })
-      })
+    // d3.selectAll('legend')
+    //   .on('click', function(d) {
+    //     d3.selectAll(".node").filter(function(e){
+    //       if ( d.color !== e.color) 
+    //       return e.species !== d.color
+    //     })
+    //   })
 
-
-  // legend.on("click", function (d) {
-  //   if (d.color() !== d.color()){
-  //     d3.selectAll(".node").filter(function(e) {
-  //       return e.color() !== d.color();
-  //     })
-  //     .style("opcaity", 0.1)
-  //   } else {
-  //     clicked = ""
-  //   }
-    
     // d3.selectAll("."+ d.cat).style("visibility", "hidden")
     
+    console.log(d3.selectAll('.legend'))
+    console.log(d3.selectAll('.cell'))
+
     
     // style("opacity", 1)
 
