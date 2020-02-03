@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/chrisdangnguyen/SEsalaries#readme",
   "dependencies": {
-    "d3": "^5.15.0"
+    "d3": "^5.15.0",
+    "webpack-cli": "^3.3.10"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.5"
   }
 }

@@ -77,7 +77,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "/Jobubbles/";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
@@ -86,14 +86,38 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "../../.nvm/versions/node/v10.13.0/lib/node_modules/webpack/buildin/harmony-module.js":
+/***/ "./node_modules/webpack/buildin/harmony-module.js":
 /*!*******************************************!*\
   !*** (webpack)/buildin/harmony-module.js ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("module.exports = function(originalModule) {\n\tif (!originalModule.webpackPolyfill) {\n\t\tvar module = Object.create(originalModule);\n\t\t// module.parent = undefined by default\n\t\tif (!module.children) module.children = [];\n\t\tObject.defineProperty(module, \"loaded\", {\n\t\t\tenumerable: true,\n\t\t\tget: function() {\n\t\t\t\treturn module.l;\n\t\t\t}\n\t\t});\n\t\tObject.defineProperty(module, \"id\", {\n\t\t\tenumerable: true,\n\t\t\tget: function() {\n\t\t\t\treturn module.i;\n\t\t\t}\n\t\t});\n\t\tObject.defineProperty(module, \"exports\", {\n\t\t\tenumerable: true\n\t\t});\n\t\tmodule.webpackPolyfill = 1;\n\t}\n\treturn module;\n};\n\n\n//# sourceURL=webpack:///(webpack)/buildin/harmony-module.js?");
+module.exports = function(originalModule) {
+	if (!originalModule.webpackPolyfill) {
+		var module = Object.create(originalModule);
+		// module.parent = undefined by default
+		if (!module.children) module.children = [];
+		Object.defineProperty(module, "loaded", {
+			enumerable: true,
+			get: function() {
+				return module.l;
+			}
+		});
+		Object.defineProperty(module, "id", {
+			enumerable: true,
+			get: function() {
+				return module.i;
+			}
+		});
+		Object.defineProperty(module, "exports", {
+			enumerable: true
+		});
+		module.webpackPolyfill = 1;
+	}
+	return module;
+};
+
 
 /***/ }),
 
@@ -104,7 +128,362 @@ eval("module.exports = function(originalModule) {\n\tif (!originalModule.webpack
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("\nlet data = [\n  {\n    cat: \"Boston\",\n    name: \"Software Engineer 1\",\n    value: 1,\n    icon: \"./img/boston.svg\",\n    desc: \"$77,323\"\n  },\n  {\n    cat: \"Boston\",\n    name: \"Software Engineer 2\",\n    value: 3,\n    icon: \"./img/boston.svg\",\n    desc: \"$99,232\"\n  },\n  {\n    cat: \"Boston\",\n    name: \"Software Engineer 3\",\n    value: 5,\n    icon: \"./img/boston.svg\",\n    desc: \"$123,101\"\n  }, \n  {\n    cat: \"Boston\",\n    name: \"Software Engineer 4\",\n    value: 7,\n    icon: \"./img/boston.svg\",\n    desc: \"$148,160\"\n  }, \n  // {\n  //   cat: \"Boston\",\n  //   name: \"Software Engineer 5\",\n  //   value: 9,\n  //   icon: \"./img/boston.svg\",\n  //   desc: \"$168,223\"\n  // },\n  {\n    cat: \"Chicago\",\n    name: \"Software Engineer 1\",\n    value: 1,\n    icon: \"./img/chicago.svg\",\n    desc: \"$72,617\"\n  },\n  {\n    cat: \"Chicago\",\n    name: \"Software Engineer 2\",\n    value: 3,\n    icon: \"./img/chicago.svg\",\n    desc: \"$93,192\"\n  },\n  {\n    cat: \"Chicago\",\n    name: \"Software Engineer 3\",\n    value: 5,\n    icon: \"./img/chicago.svg\",\n    desc: \"$115,608\"\n  },\n  {\n    cat: \"Chicago\",\n    name: \"Software Engineer 4\",\n    value: 7,\n    icon: \"./img/chicago.svg\",\n    desc: \"$139,142\"\n  },\n  // {\n  //   cat: \"Chicago\",\n  //   name: \"Software Engineer 5\",\n  //   value: 9,\n  //   icon: \"./img/chicago.svg\",\n  //   desc: \"$157,984\"\n  // },\n  {\n    cat: \"Dallas\",\n    name: \"Software Engineer 1\",\n    value: 1,\n    icon: \"./img/dallas.svg\",\n    desc: \"$67,845\"\n  },\n  {\n    cat: \"Dallas\",\n    name: \"Software Engineer 2\",\n    value: 3,\n    icon: \"./img/dallas.svg\",\n    desc: \"$87,068\"\n  },\n  {\n    cat: \"Dallas\",\n    name: \"Software Engineer 3\",\n    value: 5,\n    icon: \"./img/dallas.svg\",\n    desc: \"$108,012\"\n  },\n  {\n    cat: \"Dallas\",\n    name: \"Software Engineer 4\",\n    value: 7,\n    icon: \"./img/dallas.svg\",\n    desc: \"$129,999\"\n  },\n  // {\n  //   cat: \"Dallas\",\n  //   name: \"Software Engineer 5\",\n  //   value: 9,\n  //   icon: \"./img/dallas.svg\",\n  //   desc: \"$147,603\"\n  // },\n  {\n    cat: \"Los Angeles\",\n    name: \"Software Engineer 1\",\n    value: 1,\n    icon: \"./img/los_angeles.svg\",\n    desc: \"$77,117\"\n    },\n  {\n    cat: \"Los Angeles\",\n    name: \"Software Engineer 2\",\n    value: 3,\n    icon: \"./img/los_angeles.svg\",\n    desc: \"$98,968\"\n  },\n  {\n    cat: \"Los Angeles\",\n    name: \"Software Engineer 3\",\n    value: 5,\n    icon: \"./img/los_angeles.svg\",\n    desc: \"$112,773\"\n  },\n  {\n    cat: \"Los Angeles\",\n    name: \"Software Engineer 4\",\n    value: 7,\n    icon: \"./img/los_angeles.svg\",\n    desc: \"$147,766\"\n  },\n  // {\n  //   cat: \"Los Angeles\",\n  //   name: \"Software Engineer 5\",\n  //   value: 9,\n  //   icon: \"./img/los_angeles.svg\",\n  //   desc: \"$167,776\"\n  // },\n  {\n    cat: \"Miami\",\n    name: \"Software Engineer 1\",\n    value: 1,\n    icon: \"./img/miami.svg\",\n    desc: \"$66,691\"\n  },\n  {\n    cat: \"Miami\",\n    name: \"Software Engineer 2\",\n    value: 3,\n    icon: \"./img/miami.svg\",\n    desc: \"$85,587\"\n  },\n  {\n    cat: \"Miami\",\n    name: \"Software Engineer 3\",\n    value: 5,\n    icon: \"./img/miami.svg\",\n    desc: \"$106,174\"\n  },\n  {\n    cat: \"Miami\",\n    name: \"Software Engineer 4\",\n    value: 7,\n    icon: \"./img/miami.svg\",\n    desc: \"$127,787\"\n  },\n  // {\n  //   cat: \"Miami\",\n  //   name: \"Software Engineer 5\",\n  //   value: 9,\n  //   icon: \"./img/miami.svg\",\n  //   desc: \"$145,091\"\n  // },\n  {\n    cat: \"New York\",\n    name: \"Software Engineer 1\",\n    value: 1,\n    icon: \"./img/new_york.svg\",\n    desc: \"$82,892\"\n  },\n  {\n    cat: \"New York\",\n    name: \"Software Engineer 2\",\n    value: 3,\n    icon: \"./img/new_york.svg\",\n    desc: \"$106,379\"\n  },\n  {\n    cat: \"New York\",\n    name: \"Software Engineer 3\",\n    value: 5,\n    icon: \"./img/new_york.svg\",\n    desc: \"$131,967\"\n  },\n  {\n    cat: \"New York\",\n    name: \"Software Engineer 4\",\n    value: 7,\n    icon: \"./img/new_york.svg\",\n    desc: \"$158,832\"\n  },\n  // {\n  //   cat: \"New York\",\n  //   name: \"Software Engineer 5\",\n  //   value: 9,\n  //   icon: \"./img/new_york.svg\",\n  //   desc: \"$180,340\"\n  // },\n  {\n    cat: \"Philadelphia\",\n    name: \"Software Engineer 1\",\n    value: 1,\n    icon: \"./img/philadelphia.svg\",\n    desc: \"$73,580\"\n  },\n  {\n    cat: \"Philadelphia\",\n    name: \"Software Engineer 2\",\n    value: 3,\n    icon: \"./img/philadelphia.svg\",\n    desc: \"$94,440\"\n  },\n  {\n    cat: \"Philadelphia\",\n    name: \"Software Engineer 3\",\n    value: 5,\n    icon: \"./img/philadelphia.svg\",\n    desc: \"$117,157\"\n  },\n  {\n    cat: \"Philadelphia\",\n    name: \"Software Engineer 4\",\n    value: 7,\n    icon: \"./img/philadelphia.svg\",\n    desc: \"$141,006\"\n  },\n  // {\n  //   cat: \"Philadelphia\",\n  //   name: \"Software Engineer 5\",\n  //   value: 9,\n  //   icon: \"./img/philadelphia.svg\",\n  //   desc: \"$160,100\"\n  // },\n  {\n    cat: \"San Diego\",\n    name: \"Software Engineer 1\",\n    value: 1,\n    icon: \"./img/san_diego.svg\",\n    desc: \"$73,656\"\n  },\n  {\n    cat: \"San Diego\",\n    name: \"Software Engineer 2\",\n    value: 3,\n    icon: \"./img/san_diego.svg\",\n    desc: \"$95,525\"\n  },\n  {\n    cat: \"San Diego\",\n    name: \"Software Engineer 3\",\n    value: 5,\n    icon: \"./img/san_diego.svg\",\n    desc: \"$117,262\"\n  },\n  {\n    cat: \"San Diego\",\n    name: \"Software Engineer 4\",\n    value: 7,\n    icon: \"./img/san_diego.svg\",\n    desc: \"$141,133\"\n  },\n  // {\n  //   cat: \"San Diego\",\n  //   name: \"Software Engineer 5\",\n  //   value: 9,\n  //   icon: \"./img/san_diego.svg\",\n  //   desc: \"$160,244\"\n  // },\n  // {\n  //   cat: \"San Francisco\",\n  //   name: \"Software Engineer 1\",\n  //   value: 1,\n  //   icon: \"./img/san_francisco.svg\",\n  //   desc: \"$85,838\"\n  // },\n  // {\n  //   cat: \"San Francisco\",\n  //   name: \"Software Engineer 2\",\n  //   value: 3,\n  //   icon: \"./img/san_francisco.svg\",\n  //   desc: \"$110,160\"\n  // },\n  // {\n  //   cat: \"San Francisco\",\n  //   name: \"Software Engineer 3\",\n  //   value: 5,\n  //   icon: \"./img/san_francisco.svg\",\n  //   desc: \"$136,657\"\n  // },\n  // {\n  //   cat: \"San Francisco\",\n  //   name: \"Software Engineer 4\",\n  //   value: 7,\n  //   icon: \"./img/san_francisco.svg\",\n  //   desc: \"$164,476\"\n  // },\n  // {\n  //   cat: \"San Francisco\",\n  //   name: \"Software Engineer 5\",\n  //   value: 9,\n  //   icon: \"./img/san_francisco.svg\",\n  //   desc: \"$186,748\"\n  // },\n  // {\n  //   cat: \"Seattle\",\n  //   name: \"Software Engineer 1\",\n  //   value: 1,\n  //   icon: \"./img/seattle.svg\",\n  //   desc: \"$74,946\"\n  // },\n  // {\n  //   cat: \"Seattle\",\n  //   name: \"Software Engineer 2\",\n  //   value: 3,\n  //   icon: \"./img/seattle.svg\",\n  //   desc: \"$96,181\"\n  // },\n  // {\n  //   cat: \"Seattle\",\n  //   name: \"Software Engineer 3\",\n  //   value: 5,\n  //   icon: \"./img/seattle.svg\",\n  //   desc: \"$119,316\"\n  // },\n  // {\n  //   cat: \"Seattle\",\n  //   name: \"Software Engineer 4\",\n  //   value: 7,\n  //   icon: \"./img/seattle.svg\",\n  //   desc: \"$143,605\"\n  // },\n  // {\n  //   cat: \"Seattle\",\n  //   name: \"Software Engineer 5\",\n  //   value: 9,\n  //   icon: \"./img/seattle.svg\",\n  //   desc: \"$163,051\"\n  // }\n];\n\n\nmodule.exports = data;\n\n//# sourceURL=webpack:///./src/data.js?");
+
+let data = [
+  {
+    cat: "Boston",
+    name: "Software Engineer 1",
+    value: 25,
+    icon: "./img/boston.svg",
+    desc: "$77,323"
+  },
+  {
+    cat: "Boston",
+    name: "Software Engineer 2",
+    value: 50,
+    icon: "./img/boston.svg",
+    desc: "$99,232"
+  },
+  {
+    cat: "Boston",
+    name: "Software Engineer 3",
+    value: 125,
+    icon: "./img/boston.svg",
+    desc: "$123,101"
+  }, 
+  {
+    cat: "Boston",
+    name: "Software Engineer 4",
+    value: 200,
+    icon: "./img/boston.svg",
+    desc: "$148,160"
+  }, 
+  // {
+  //   cat: "Boston",
+  //   name: "Software Engineer 5",
+  //   value: 9,
+  //   icon: "./img/boston.svg",
+  //   desc: "$168,223"
+  // },
+  {
+    cat: "Chicago",
+    name: "Software Engineer 1",
+    value: 25,
+    icon: "./img/chicago.svg",
+    desc: "$72,617"
+  },
+  {
+    cat: "Chicago",
+    name: "Software Engineer 2",
+    value: 50,
+    icon: "./img/chicago.svg",
+    desc: "$93,192"
+  },
+  {
+    cat: "Chicago",
+    name: "Software Engineer 3",
+    value: 125,
+    icon: "./img/chicago.svg",
+    desc: "$115,608"
+  },
+  {
+    cat: "Chicago",
+    name: "Software Engineer 4",
+    value: 200,
+    icon: "./img/chicago.svg",
+    desc: "$139,142"
+  },
+  // {
+  //   cat: "Chicago",
+  //   name: "Software Engineer 5",
+  //   value: 9,
+  //   icon: "./img/chicago.svg",
+  //   desc: "$157,984"
+  // },
+  {
+    cat: "Dallas",
+    name: "Software Engineer 1",
+    value: 25,
+    icon: "./img/dallas.svg",
+    desc: "$67,845"
+  },
+  {
+    cat: "Dallas",
+    name: "Software Engineer 2",
+    value: 50,
+    icon: "./img/dallas.svg",
+    desc: "$87,068"
+  },
+  {
+    cat: "Dallas",
+    name: "Software Engineer 3",
+    value: 125,
+    icon: "./img/dallas.svg",
+    desc: "$108,012"
+  },
+  {
+    cat: "Dallas",
+    name: "Software Engineer 4",
+    value: 200,
+    icon: "./img/dallas.svg",
+    desc: "$129,999"
+  },
+  // {
+  //   cat: "Dallas",
+  //   name: "Software Engineer 5",
+  //   value: 9,
+  //   icon: "./img/dallas.svg",
+  //   desc: "$147,603"
+  // },
+  {
+    cat: "Los Angeles",
+    name: "Software Engineer 1",
+    value: 25,
+    icon: "./img/los_angeles.svg",
+    desc: "$77,117"
+    },
+  {
+    cat: "Los Angeles",
+    name: "Software Engineer 2",
+    value: 50,
+    icon: "./img/los_angeles.svg",
+    desc: "$98,968"
+  },
+  {
+    cat: "Los Angeles",
+    name: "Software Engineer 3",
+    value: 125,
+    icon: "./img/los_angeles.svg",
+    desc: "$112,773"
+  },
+  {
+    cat: "Los Angeles",
+    name: "Software Engineer 4",
+    value: 200,
+    icon: "./img/los_angeles.svg",
+    desc: "$147,766"
+  },
+  // {
+  //   cat: "Los Angeles",
+  //   name: "Software Engineer 5",
+  //   value: 9,
+  //   icon: "./img/los_angeles.svg",
+  //   desc: "$167,776"
+  // },
+  {
+    cat: "Miami",
+    name: "Software Engineer 1",
+    value: 25,
+    icon: "./img/miami.svg",
+    desc: "$66,691"
+  },
+  {
+    cat: "Miami",
+    name: "Software Engineer 2",
+    value: 50,
+    icon: "./img/miami.svg",
+    desc: "$85,587"
+  },
+  {
+    cat: "Miami",
+    name: "Software Engineer 3",
+    value: 125,
+    icon: "./img/miami.svg",
+    desc: "$106,174"
+  },
+  {
+    cat: "Miami",
+    name: "Software Engineer 4",
+    value: 200,
+    icon: "./img/miami.svg",
+    desc: "$127,787"
+  },
+  // {
+  //   cat: "Miami",
+  //   name: "Software Engineer 5",
+  //   value: 9,
+  //   icon: "./img/miami.svg",
+  //   desc: "$145,091"
+  // },
+  // {
+  //   cat: "New York",
+  //   name: "Software Engineer 1",
+  //   value: 25,
+  //   icon: "./img/new_york.svg",
+  //   desc: "$82,892"
+  // },
+  // {
+  //   cat: "New York",
+  //   name: "Software Engineer 2",
+  //   value: 50,
+  //   icon: "./img/new_york.svg",
+  //   desc: "$106,379"
+  // },
+  // {
+  //   cat: "New York",
+  //   name: "Software Engineer 3",
+  //   value: 125,
+  //   icon: "./img/new_york.svg",
+  //   desc: "$131,967"
+  // },
+  // {
+  //   cat: "New York",
+  //   name: "Software Engineer 4",
+  //   value: 200,
+  //   icon: "./img/new_york.svg",
+  //   desc: "$158,832"
+  // },
+  // // {
+  // //   cat: "New York",
+  // //   name: "Software Engineer 5",
+  // //   value: 9,
+  // //   icon: "./img/new_york.svg",
+  // //   desc: "$180,340"
+  // // },
+  // {
+  //   cat: "Philadelphia",
+  //   name: "Software Engineer 1",
+  //   value: 25,
+  //   icon: "./img/philadelphia.svg",
+  //   desc: "$73,580"
+  // },
+  // {
+  //   cat: "Philadelphia",
+  //   name: "Software Engineer 2",
+  //   value: 50,
+  //   icon: "./img/philadelphia.svg",
+  //   desc: "$94,440"
+  // },
+  // {
+  //   cat: "Philadelphia",
+  //   name: "Software Engineer 3",
+  //   value: 125,
+  //   icon: "./img/philadelphia.svg",
+  //   desc: "$117,157"
+  // },
+  // {
+  //   cat: "Philadelphia",
+  //   name: "Software Engineer 4",
+  //   value: 200,
+  //   icon: "./img/philadelphia.svg",
+  //   desc: "$141,006"
+  // },
+  // // {
+  // //   cat: "Philadelphia",
+  // //   name: "Software Engineer 5",
+  // //   value: 9,
+  // //   icon: "./img/philadelphia.svg",
+  // //   desc: "$160,100"
+  // // },
+  // {
+  //   cat: "San Diego",
+  //   name: "Software Engineer 1",
+  //   value: 25,
+  //   icon: "./img/san_diego.svg",
+  //   desc: "$73,656"
+  // },
+  // {
+  //   cat: "San Diego",
+  //   name: "Software Engineer 2",
+  //   value: 50,
+  //   icon: "./img/san_diego.svg",
+  //   desc: "$95,525"
+  // },
+  // {
+  //   cat: "San Diego",
+  //   name: "Software Engineer 3",
+  //   value: 125,
+  //   icon: "./img/san_diego.svg",
+  //   desc: "$117,262"
+  // },
+  // {
+  //   cat: "San Diego",
+  //   name: "Software Engineer 4",
+  //   value: 200,
+  //   icon: "./img/san_diego.svg",
+  //   desc: "$141,133"
+  // },
+  // // {
+  // //   cat: "San Diego",
+  // //   name: "Software Engineer 5",
+  // //   value: 9,
+  // //   icon: "./img/san_diego.svg",
+  // //   desc: "$160,244"
+  // // },
+  // {
+  //   cat: "San Francisco",
+  //   name: "Software Engineer 1",
+  //   value: 25,
+  //   icon: "./img/san_francisco.svg",
+  //   desc: "$85,838"
+  // },
+  // {
+  //   cat: "San Francisco",
+  //   name: "Software Engineer 2",
+  //   value: 50,
+  //   icon: "./img/san_francisco.svg",
+  //   desc: "$110,160"
+  // },
+  // {
+  //   cat: "San Francisco",
+  //   name: "Software Engineer 3",
+  //   value: 125,
+  //   icon: "./img/san_francisco.svg",
+  //   desc: "$136,657"
+  // },
+  // {
+  //   cat: "San Francisco",
+  //   name: "Software Engineer 4",
+  //   value: 200,
+  //   icon: "./img/san_francisco.svg",
+  //   desc: "$164,476"
+  // },
+  // // {
+  // //   cat: "San Francisco",
+  // //   name: "Software Engineer 5",
+  // //   value: 9,
+  // //   icon: "./img/san_francisco.svg",
+  // //   desc: "$186,748"
+  // // },
+  // {
+  //   cat: "Seattle",
+  //   name: "Software Engineer 1",
+  //   value: 25,
+  //   icon: "./img/seattle.svg",
+  //   desc: "$74,946"
+  // },
+  // {
+  //   cat: "Seattle",
+  //   name: "Software Engineer 2",
+  //   value: 50,
+  //   icon: "./img/seattle.svg",
+  //   desc: "$96,181"
+  // },
+  // {
+  //   cat: "Seattle",
+  //   name: "Software Engineer 3",
+  //   value: 125,
+  //   icon: "./img/seattle.svg",
+  //   desc: "$119,316"
+  // },
+  // {
+  //   cat: "Seattle",
+  //   name: "Software Engineer 4",
+  //   value: 200,
+  //   icon: "./img/seattle.svg",
+  //   desc: "$143,605"
+  // },
+  // {
+  //   cat: "Seattle",
+  //   name: "Software Engineer 5",
+  //   value: 9,
+  //   icon: "./img/seattle.svg",
+  //   desc: "$163,051"
+  // }
+];
+
+
+module.exports = data;
 
 /***/ }),
 
@@ -116,8 +495,379 @@ eval("\nlet data = [\n  {\n    cat: \"Boston\",\n    name: \"Software Engineer 1
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./data */ \"./src/data.js\");\n/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_data__WEBPACK_IMPORTED_MODULE_0__);\n// javascript \n\n\n\n\nfunction code() {\n\n  let svg = d3.select(\"svg\");\n  let width = document.body.clientWidth; // get width in pixels\n  let height = +svg.attr(\"height\");\n  let centerX = width * 0.55;\n  let centerY = height * 0.5;\n  let focusedNode;\n\n  // let format = d3.format(\",d\");\n\n  let scaleColor = d3.scaleOrdinal(d3.schemeSet3);\n\n  // use pack to calculate radius of the circle\n  let pack = d3\n    .pack()\n    .size([width, height])\n    .padding(1.5);\n\n  let forceCollide = d3.forceCollide(d => d.r);\n\n  // use the force\n  let simulation = d3\n    .forceSimulation()\n    .force(\"charge\", d3.forceManyBody())\n    .force(\"collide\", forceCollide)\n    .force(\"x\", d3.forceX(centerX))\n    .force(\"y\", d3.forceY(centerY));\n\n  // reduce number of circles on mobile screen due to slow computation\n  // if (\n  //   \"matchMedia\" in window &&\n  //   window.matchMedia(\"(max-device-width: 767px)\").matches\n  // ) {\n  //   data = data.filter(el => {\n  //     return el.value >= 50;\n  //   });\n  // }\n\n  let root = d3.hierarchy({ children: _data__WEBPACK_IMPORTED_MODULE_0___default.a }).sum(d => d.value);\n\n  // we use pack() to automatically calculate radius conveniently only\n  // and get only the leaves\n  let nodes = pack(root)\n    .leaves()\n    .map(node => {\n      // console.log(\"node:\", node.x, (node.x - centerX) * 2);\n      const data = node.data;\n      return {\n        x: centerX + (node.x - centerX) * 3, // magnify start position to have transition to center movement\n        y: centerY + (node.y - centerY) * 3,\n        r: 0, // for tweening\n        radius: node.r, //original radius\n        id: data.cat,\n        // + \".\" + data.name.replace(/\\s/g, \"-\"),\n        cat: data.cat,\n        name: data.name,\n        value: data.value,\n        icon: data.icon,\n        desc: data.desc\n      };\n    });\n  simulation.nodes(nodes).on(\"tick\", ticked);\n\n  // svg.style(\"background-color\", \"white\");\n  let node = svg\n    .selectAll(\".node\")\n    .data(nodes)\n    .enter()\n    .append(\"g\")\n    .attr(\"class\", \"node\")\n    // .attr(\"id\", d => d.cat)\n    .call(\n      d3\n        .drag()\n        .on(\"start\", d => {\n          if (!d3.event.active) simulation.alphaTarget(0.2).restart();\n          d.fx = d.x;\n          d.fy = d.y;\n        })\n        .on(\"drag\", d => {\n          d.fx = d3.event.x;\n          d.fy = d3.event.y;\n        })\n        .on(\"end\", d => {\n          if (!d3.event.active) simulation.alphaTarget(0);\n          d.fx = null;\n          d.fy = null;\n        })\n    );\n\n  node\n    .append(\"circle\")\n    .attr(\"r\", 0)\n    .style(\"fill\", d => scaleColor(d.cat))\n    .attr(\"id\", d => d.cat)\n    .style(\"opacity\", 0.5)\n    .transition()\n    .duration(300)\n    // .ease(d3.easeElasticOut)\n    .tween(\"circleIn\", d => {\n      let i = d3.interpolateNumber(0, d.radius);\n      return t => {\n        d.r = i(t);\n        simulation.force(\"collide\", forceCollide);\n      };\n    });\n\n  node\n    .append(\"clipPath\")\n    .attr(\"id\", d => `clip-${d.id}`)\n    .append(\"use\")\n    .attr(\"xlink:href\", d => `#${d.id}`);\n\n  // display text as circle icon\n  node\n    .filter(d => !String(d.icon).includes(\"img/\"))\n    .append(\"text\")\n    .classed(\"node-icon\", true)\n    .attr(\"clip-path\", d => `url(#clip-${d.id})`)\n    .selectAll(\"tspan\")\n    .data(d => d.icon.split(\";\"))\n    .enter()\n    // .append(\"tspan\")\n    // .attr(\"x\", 0)\n    // .attr(\"y\", (d, i, nodes) => 13 + (i - nodes.length / 2 - 0.5) * 10)\n    // .text(name => name);\n\n  // display image as circle icon\n  node\n    .filter(d => String(d.icon).includes(\"img/\"))\n    .append(\"image\")\n    .classed(\"node-icon\", true)\n    .attr(\"fill\", d => `url(#clip-${d.id})`)\n    .attr(\"xlink:href\", d => d.icon)\n    .attr(\"x\", d => -d.radius * 0.7)\n    .attr(\"y\", d => -d.radius * 0.7)\n    .attr(\"height\", d => d.radius * 2 * 0.7)\n    .attr(\"width\", d => d.radius * 2 * 0.7);\n\n  // node.append(\"title\").text(d => d.cat + \"::\" + d.name + \"\\n\" + format(d.value));\n\n\n\n\n//------------------------------------------------------------------------------\n\n// Legend \n\n\n\n  let legendOrdinal = d3\n    .legendColor()\n    .scale(scaleColor)\n    .shape(\"circle\");\n    \n  \n  let legend = svg\n    .append(\"g\")\n    .classed(\"legend-color\", true)\n    .attr(\"text-anchor\", \"start\")\n    .attr(\"transform\", \"translate( 100, 200 )\")\n    .style(\"font-size\", \"18px\")\n    .style(\"font-weight\", \"thin\")\n    .style(\"fill\", \"whitesmoke\")\n    .call(legendOrdinal)\n\n  document.addEventListener('DOMContentLoaded', () => {\n    document.querySelectorAll(\".legendCells > g\").forEach((el, idx) => {\n      el.setAttribute('id', el.textContent)\n    });\n  })\n\n\n  document.addEventListener('DOMContentLoaded', () => {\n    document.querySelectorAll(\".legendCells > g\").forEach((el) => {\n        el.onclick = function(){\n          node.filter(function(d) {\n            return d.id !== el.id \n          }).style(\"opacity\", 0.1)\n\n          node.filter(function (d) {\n            return d.id === el.id\n          }).style(\"opacity\", 1)\n        }\n    });\n\n\n\n  })\n\n  // let sizeScale = d3\n  //   .scaleOrdinal()\n  //   .domain([''])\n  //   .range([5, 10]);\n\n  // let legendSize = d3\n  //   .legendSize()\n  //   .scale(sizeScale)\n  //   .shape(\"circle\")\n  //   .shapePadding(10)\n  //   .labelAlign(\"end\");\n\n  // let legend2 = svg\n  //   .append(\"g\")\n  //   .classed(\"legend-size\", true)\n  //   .attr(\"text-anchor\", \"start\")\n  //   .attr(\"transform\", \"translate(150, 25)\")\n  //   .style(\"font-size\", \"12px\")\n  //   .call(legendSize);\n    \n  //------------------------------------------------------------------------------\n  //small circle in the bubble\n\n\n\n\n\n  let infoBox = node\n    .append(\"foreignObject\")\n    .classed(\"circle-overlay hidden\", true)\n    .attr(\"x\", -550 * 0.5 * 0.8)\n    .attr(\"y\", -200 * 0.5 * 0.8)\n    .attr(\"height\", 350 * 0.8)\n    .attr(\"width\", 550 * 0.8)\n    .append(\"xhtml:div\")\n    .classed(\"circle-overlay__inner\", true);\n\n  infoBox\n    .append(\"h2\")\n    .classed(\"circle-overlay__title\", true)\n    .text(d => d.name);\n\n  infoBox\n    .append(\"p\")\n    .classed(\"circle-overlay__body\", true)\n    .html(d => d.desc)\n\n\n\n\n//------------------------------------------------------------------------------\n\n// On click on nodes\n\n\n  node.on(\"click\", currentNode => {\n    d3.event.stopPropagation();\n    let currentTarget = d3.event.currentTarget; // the <g> el\n\n    if (currentNode === focusedNode) {\n      return;\n    }\n    let lastNode = focusedNode;\n    focusedNode = currentNode;\n\n    simulation.alphaTarget(0.2).restart();\n    // hide all circle-overlay\n    d3.selectAll(\".circle-overlay\").classed(\"hidden\", true);\n    d3.selectAll(\".node-icon\").classed(\"node-icon--faded\", false).style(\"opacity\", 0.8);\n\n    // don't fix last node to center anymore\n    if (lastNode) {\n      lastNode.fx = null;\n      lastNode.fy = null;\n      node\n        .filter((d, i) => i === lastNode.index)\n        .transition()\n        .duration(1000)\n        .ease(d3.easePolyOut)\n        .tween(\"circleOut\", () => {\n          let irl = d3.interpolateNumber(lastNode.r, lastNode.radius);\n          return t => {\n            lastNode.r = irl(t);\n          };\n        })\n        .on(\"interrupt\", () => {\n          lastNode.r = lastNode.radius;\n        });\n    }\n\n    d3.transition()\n      .duration(1000)\n      .ease(d3.easePolyOut)\n      .tween(\"moveIn\", () => {\n        console.log(\"tweenMoveIn\", currentNode);\n        let ix = d3.interpolateNumber(currentNode.x, centerX);\n        let iy = d3.interpolateNumber(currentNode.y, centerY);\n        let ir = d3.interpolateNumber(currentNode.r, centerY * 0.5);\n        return function(t) {\n          // console.log('i', ix(t), iy(t));\n          currentNode.fx = ix(t);\n          currentNode.fy = iy(t);\n          currentNode.r = ir(t);\n          simulation.force(\"collide\", forceCollide);\n\n        };\n      })\n      .on(\"end\", () => {\n        simulation.alphaTarget(0);\n        let $currentGroup = d3.select(currentTarget);\n        $currentGroup.select(\".circle-overlay\").classed(\"hidden\", false);\n        $currentGroup\n          .select(\".node-icon\")\n          .classed(\"node-icon--faded\", true)\n          .style(\"opacity\", 0);\n      })\n      // .on(\"interrupt\", () => {\n      //   console.log(\"move interrupt\", currentNode);\n      //   currentNode.fx = null;\n      //   currentNode.fy = null;\n      //   simulation.alphaTarget(0);\n      // });\n  });\n\n  // blur\n  d3.select(document).on(\"click\", () => {\n    let target = d3.event.target;\n\n    if (!target.closest(\"#circle-overlay\") && focusedNode) {\n      focusedNode.fx = null;\n      focusedNode.fy = null;\n      simulation.alphaTarget(0.2).restart();\n      d3.transition()\n        .duration(2000)\n        .ease(d3.easePolyOut)\n        .tween(\"moveOut\", function() {\n          console.log(\"tweenMoveOut\", focusedNode);\n          let ir = d3.interpolateNumber(focusedNode.r, focusedNode.radius);\n          return function(t) {\n            focusedNode.r = ir(t);\n            simulation.force(\"collide\", forceCollide);\n          };\n        })\n        .on(\"end\", () => {\n          focusedNode = null;\n          simulation.alphaTarget(0);\n        })\n        // .on(\"interrupt\", () => {\n        //   simulation.alphaTarget(0);\n        // });\n\n      // hide all circle-overlay\n      d3.selectAll(\".circle-overlay\").classed(\"hidden\", true);\n      d3.selectAll(\".node-icon\")\n        .classed(\"node-icon--faded\", false)\n        .style(\"opacity\", 0.8);\n    }\n  });\n\n  function ticked() {\n    node\n      .attr(\"transform\", d => `translate(${d.x},${d.y})`)\n      .select(\"circle\")\n      .attr(\"r\", d => d.r);\n  }\n\n\n\n  //------------------------------------------------------------------------------\n  // for glow effect on nodes\n\n    //Container for the gradients\n  var defs = svg.append(\"defs\");\n\n  //Filter for the outside glow\n  var filter = defs.append(\"filter\")\n      .attr(\"id\",\"glow\");\n  filter.append(\"feGaussianBlur\")\n      .attr(\"stdDeviation\",\"3.5\")\n      .attr(\"result\",\"coloredBlur\");\n  var feMerge = filter.append(\"feMerge\");\n  feMerge.append(\"feMergeNode\")\n      .attr(\"in\",\"coloredBlur\");\n  feMerge.append(\"feMergeNode\")\n      .attr(\"in\",\"SourceGraphic\");\n\n  d3.selectAll(\".node\").style(\"filter\", \"url(#glow)\");\n  \n}\n\n// main.innerHTML = code();\nmodule.export = code();\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../.nvm/versions/node/v10.13.0/lib/node_modules/webpack/buildin/harmony-module.js */ \"../../.nvm/versions/node/v10.13.0/lib/node_modules/webpack/buildin/harmony-module.js\")(module)))\n\n//# sourceURL=webpack:///./src/index.js?");
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./data */ "./src/data.js");
+/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_data__WEBPACK_IMPORTED_MODULE_0__);
+// javascript 
+
+
+
+
+function code() {
+
+  let svg = d3.select("svg");
+  let width = document.body.clientWidth; // get width in pixels
+  let height = +svg.attr("height");
+  let centerX = width * 0.55;
+  let centerY = height * 0.5;
+  let focusedNode;
+
+  // let format = d3.format(",d");
+
+  let scaleColor = d3.scaleOrdinal(d3.schemeSet3);
+
+  // use pack to calculate radius of the circle
+  let pack = d3
+    .pack()
+    .size([width, height])
+    .padding(2);
+
+  let forceCollide = d3.forceCollide(d => d.r);
+
+  // use the force
+  let simulation = d3
+    .forceSimulation()
+    .force("charge", d3.forceManyBody())
+    .force("collide", forceCollide)
+    .force("x", d3.forceX(centerX))
+    .force("y", d3.forceY(centerY));
+
+  // reduce number of circles on mobile screen due to slow computation
+  // if (
+  //   "matchMedia" in window &&
+  //   window.matchMedia("(max-device-width: 767px)").matches
+  // ) {
+  //   data = data.filter(el => {
+  //     return el.value >= 50;
+  //   });
+  // }
+
+  let root = d3.hierarchy({ children: _data__WEBPACK_IMPORTED_MODULE_0___default.a }).sum(d => d.value);
+
+  // we use pack() to automatically calculate radius conveniently only
+  // and get only the leaves
+  let nodes = pack(root)
+    .leaves()
+    .map(node => {
+      const data = node.data;
+      return {
+        x: centerX + (node.x - centerX) * 3, // magnify start position to have transition to center movement
+        y: centerY + (node.y - centerY) * 3,
+        r: 0, // for tweening
+        radius: node.r, //original radius
+        id: data.cat,
+        // + "." + data.name.replace(/\s/g, "-"),
+        cat: data.cat,
+        name: data.name,
+        value: data.value,
+        icon: data.icon,
+        desc: data.desc
+      };
+    });
+  simulation.nodes(nodes).on("tick", ticked);
+
+  // svg.style("background-color", "white");
+  let node = svg
+    .selectAll(".node")
+    .data(nodes)
+    .enter()
+    .append("g")
+    .attr("class", "node")
+    // .attr("id", d => d.cat)
+    .call(
+      d3
+        .drag()
+        .on("start", d => {
+          if (!d3.event.active) simulation.alphaTarget(0.2).restart();
+          d.fx = d.x;
+          d.fy = d.y;
+        })
+        .on("drag", d => {
+          d.fx = d3.event.x;
+          d.fy = d3.event.y;
+        })
+        .on("end", d => {
+          if (!d3.event.active) simulation.alphaTarget(0);
+          d.fx = null;
+          d.fy = null;
+        })
+    );
+
+  node
+    .append("circle")
+    .attr("r", 0)
+    .style("fill", d => scaleColor(d.cat))
+    .attr("id", d => d.cat)
+    .style("opacity", 0.5)
+    .transition()
+    .duration(300)
+    // .ease(d3.easeElasticOut)
+    .tween("circleIn", d => {
+      let i = d3.interpolateNumber(0, d.radius);
+      return t => {
+        d.r = i(t);
+        simulation.force("collide", forceCollide);
+      };
+    });
+
+  node
+    .append("clipPath")
+    .attr("id", d => `clip-${d.id}`)
+    .append("use")
+    .attr("xlink:href", d => `#${d.id}`);
+
+  // display text as circle icon
+  node
+    .filter(d => !String(d.icon).includes("img/"))
+    .append("text")
+    .classed("node-icon", true)
+    .attr("clip-path", d => `url(#clip-${d.id})`)
+    .selectAll("tspan")
+    .data(d => d.icon.split(";"))
+    .enter()
+    // .append("tspan")
+    // .attr("x", 0)
+    // .attr("y", (d, i, nodes) => 13 + (i - nodes.length / 2 - 0.5) * 10)
+    // .text(name => name);
+
+  // display image as circle icon
+  node
+    .filter(d => String(d.icon).includes("img/"))
+    .append("image")
+    .classed("node-icon", true)
+    .attr("fill", d => `url(#clip-${d.id})`)
+    .attr("xlink:href", d => d.icon)
+    .attr("x", d => -d.radius * 0.7)
+    .attr("y", d => -d.radius * 0.7)
+    .attr("height", d => d.radius * 2 * 0.7)
+    .attr("width", d => d.radius * 2 * 0.7);
+
+  // node.append("title").text(d => d.cat + "::" + d.name + "\n" + format(d.value));
+
+
+
+
+//------------------------------------------------------------------------------
+
+// Legend 
+
+
+
+  let legendOrdinal = d3
+    .legendColor()
+    .scale(scaleColor)
+    .shape("circle");
+    
+  
+  let legend = svg
+    .append("g")
+    .classed("legend-color", true)
+    .attr("text-anchor", "start")
+    .attr("transform", "translate( 100, 200 )")
+    .style("font-size", "18px")
+    .style("font-weight", "thin")
+    .style("fill", "whitesmoke")
+    .call(legendOrdinal)
+
+  document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll(".legendCells > g").forEach((el, idx) => {
+      el.setAttribute('id', el.textContent)
+    });
+  })
+
+
+  document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll(".legendCells > g").forEach((el) => {
+        el.onclick = function(){
+          node.filter(function(d) {
+            return d.id !== el.id 
+          }).style("opacity", 0.1)
+
+          node.filter(function (d) {
+            return d.id === el.id
+          }).style("opacity", 1)
+        }
+    });
+
+
+
+  })
+
+  //------------------------------------------------------------------------------
+  //small circle in the bubble
+
+
+
+
+
+  let infoBox = node
+    .append("foreignObject")
+    .classed("circle-overlay hidden", true)
+    .attr("x", -550 * 0.5 * 0.8)
+    .attr("y", -200 * 0.5 * 0.8)
+    .attr("height", 350 * 0.8)
+    .attr("width", 550 * 0.8)
+    .append("xhtml:div")
+    .classed("circle-overlay__inner", true);
+
+  infoBox
+    .append("h2")
+    .classed("circle-overlay__title", true)
+    .text(d => d.name);
+
+  infoBox
+    .append("p")
+    .classed("circle-overlay__body", true)
+    .html(d => d.desc)
+
+
+
+
+//------------------------------------------------------------------------------
+
+// On click on nodes
+
+
+  node.on("click", currentNode => {
+    d3.event.stopPropagation();
+    let currentTarget = d3.event.currentTarget; // the <g> el
+
+    if (currentNode === focusedNode) {
+      return;
+    }
+    let lastNode = focusedNode;
+    focusedNode = currentNode;
+
+    simulation.alphaTarget(0.2).restart();
+    // hide all circle-overlay
+    d3.selectAll(".circle-overlay").classed("hidden", true);
+    d3.selectAll(".node-icon").classed("node-icon--faded", false).style("opacity", 0.8);
+
+    // don't fix last node to center anymore
+    if (lastNode) {
+      lastNode.fx = null;
+      lastNode.fy = null;
+      node
+        .filter((d, i) => i === lastNode.index)
+        .transition()
+        .duration(1000)
+        .ease(d3.easePolyOut)
+        .tween("circleOut", () => {
+          let irl = d3.interpolateNumber(lastNode.r, lastNode.radius);
+          return t => {
+            lastNode.r = irl(t);
+          };
+        })
+        .on("interrupt", () => {
+          lastNode.r = lastNode.radius;
+        });
+    }
+
+    d3.transition()
+      .duration(1000)
+      .ease(d3.easePolyOut)
+      .tween("moveIn", () => {
+        console.log("tweenMoveIn", currentNode);
+        let ix = d3.interpolateNumber(currentNode.x, centerX);
+        let iy = d3.interpolateNumber(currentNode.y, centerY);
+        let ir = d3.interpolateNumber(currentNode.r, centerY * 0.5);
+        return function(t) {
+          // console.log('i', ix(t), iy(t));
+          currentNode.fx = ix(t);
+          currentNode.fy = iy(t);
+          currentNode.r = ir(t);
+          simulation.force("collide", forceCollide);
+
+        };
+      })
+      .on("end", () => {
+        simulation.alphaTarget(0);
+        let $currentGroup = d3.select(currentTarget);
+        $currentGroup.select(".circle-overlay").classed("hidden", false);
+        $currentGroup
+          .select(".node-icon")
+          .classed("node-icon--faded", true)
+          .style("opacity", 0);
+      })
+      // .on("interrupt", () => {
+      //   console.log("move interrupt", currentNode);
+      //   currentNode.fx = null;
+      //   currentNode.fy = null;
+      //   simulation.alphaTarget(0);
+      // });
+  });
+
+  // blur
+  d3.select(document).on("click", () => {
+    let target = d3.event.target;
+
+    if (!target.closest("#circle-overlay") && focusedNode) {
+      focusedNode.fx = null;
+      focusedNode.fy = null;
+      simulation.alphaTarget(0.2).restart();
+      d3.transition()
+        .duration(2000)
+        .ease(d3.easePolyOut)
+        .tween("moveOut", function() {
+          console.log("tweenMoveOut", focusedNode);
+          let ir = d3.interpolateNumber(focusedNode.r, focusedNode.radius);
+          return function(t) {
+            focusedNode.r = ir(t);
+            simulation.force("collide", forceCollide);
+          };
+        })
+        .on("end", () => {
+          focusedNode = null;
+          simulation.alphaTarget(0);
+        })
+        // .on("interrupt", () => {
+        //   simulation.alphaTarget(0);
+        // });
+
+      // hide all circle-overlay
+      d3.selectAll(".circle-overlay").classed("hidden", true);
+      d3.selectAll(".node-icon")
+        .classed("node-icon--faded", false)
+        .style("opacity", 0.8);
+    }
+  });
+
+  function ticked() {
+    node
+      .attr("transform", d => `translate(${d.x},${d.y})`)
+      .select("circle")
+      .attr("r", d => d.r);
+  }
+
+
+
+  //------------------------------------------------------------------------------
+  // for glow effect on nodes
+
+    //Container for the gradients
+  var defs = svg.append("defs");
+
+  //Filter for the outside glow
+  var filter = defs.append("filter")
+      .attr("id","glow");
+  filter.append("feGaussianBlur")
+      .attr("stdDeviation","3.5")
+      .attr("result","coloredBlur");
+  var feMerge = filter.append("feMerge");
+  feMerge.append("feMergeNode")
+      .attr("in","coloredBlur");
+  feMerge.append("feMergeNode")
+      .attr("in","SourceGraphic");
+
+  d3.selectAll(".node").style("filter", "url(#glow)");
+  
+}
+
+// main.innerHTML = code();
+module.export = code();
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
 
 /***/ })
 
 /******/ });
+//# sourceMappingURL=main.js.map

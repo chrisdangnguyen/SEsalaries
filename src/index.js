@@ -20,7 +20,7 @@ function code() {
   let pack = d3
     .pack()
     .size([width, height])
-    .padding(1.5);
+    .padding(2);
 
   let forceCollide = d3.forceCollide(d => d.r);
 
@@ -49,7 +49,6 @@ function code() {
   let nodes = pack(root)
     .leaves()
     .map(node => {
-      // console.log("node:", node.x, (node.x - centerX) * 2);
       const data = node.data;
       return {
         x: centerX + (node.x - centerX) * 3, // magnify start position to have transition to center movement
@@ -194,26 +193,6 @@ function code() {
 
   })
 
-  // let sizeScale = d3
-  //   .scaleOrdinal()
-  //   .domain([''])
-  //   .range([5, 10]);
-
-  // let legendSize = d3
-  //   .legendSize()
-  //   .scale(sizeScale)
-  //   .shape("circle")
-  //   .shapePadding(10)
-  //   .labelAlign("end");
-
-  // let legend2 = svg
-  //   .append("g")
-  //   .classed("legend-size", true)
-  //   .attr("text-anchor", "start")
-  //   .attr("transform", "translate(150, 25)")
-  //   .style("font-size", "12px")
-  //   .call(legendSize);
-    
   //------------------------------------------------------------------------------
   //small circle in the bubble
 
