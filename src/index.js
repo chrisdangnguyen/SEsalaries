@@ -255,7 +255,6 @@ function code() {
 
   infoBox
     .append("p")
-    .append("text")
     .classed("circle-overlay__body", true)
     .html(d => d.desc)
 
