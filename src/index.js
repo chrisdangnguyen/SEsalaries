@@ -345,23 +345,23 @@ function code() {
   // for glow effect on nodes
 
     //Container for the gradients
-  var defs = svg.append("defs");
+  // var defs = svg.append("defs");
 
-  //Filter for the outside glow
-  var filter = defs.append("filter")
-      .attr("id","glow");
-  filter.append("feGaussianBlur")
-      .attr("stdDeviation","3.5")
-      .attr("result","coloredBlur");
-  var feMerge = filter.append("feMerge");
-  feMerge.append("feMergeNode")
-      .attr("in","coloredBlur");
-  feMerge.append("feMergeNode")
-      .attr("in","SourceGraphic");
+  // //Filter for the outside glow
+  // var filter = defs.append("filter")
+  //     .attr("id","glow");
+  // filter.append("feGaussianBlur")
+  //     .attr("stdDeviation","3.5")
+  //     .attr("result","coloredBlur");
+  // var feMerge = filter.append("feMerge");
+  // feMerge.append("feMergeNode")
+  //     .attr("in","coloredBlur");
+  // feMerge.append("feMergeNode")
+  //     .attr("in","SourceGraphic");
 
-  d3.selectAll(".node").style("filter", "url(#glow)");
+  // d3.selectAll(".node").style("filter", "url(#glow)");
   
 }
 
 // main.innerHTML = code();
-module.export = code();
+module.exports = code();
