@@ -326,6 +326,8 @@ function code() {
   d3.select(document).on("click", () => {
     let target = d3.event.target;
 
+    
+
 
     if (!target.closest("#circle-overlay") && focusedNode) {
       focusedNode.fx = null;
