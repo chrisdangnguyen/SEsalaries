@@ -2,7 +2,7 @@
 
 # moneyTree
 
-[moneyTree](https://chrisdangnguyen.github.io/SEsalaries/)
+[moneyTree](https://chrisdangnguyen.github.io/moneyTree/)
 
 ## Background
 
@@ -16,7 +16,7 @@ Present an appealing data visualization website that inform users of average sof
 
 ## Wireframes
 
-![moneyTree home page](https://github.com/chrisdangnguyen/SEsalaries/blob/master/Bubble.png)
+![moneyTree home page](https://github.com/chrisdangnguyen/moneyTree/blob/master/Bubble.png)
 
 
 ## Architecture and Technologies
