@@ -178,6 +178,13 @@ function code() {
   })
 
 
+
+  
+//------------------------------------------------------------------------------
+// filter by city 
+
+
+
   document.addEventListener('DOMContentLoaded', () => {
     var clicked = false;
     console.log(clicked)
@@ -193,7 +200,6 @@ function code() {
           }).style("opacity", 1)
 
           clicked = true;
-          console.log(clicked)
         }
 
     });
@@ -210,7 +216,7 @@ function code() {
   
           
 
-          //------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
   //small circle in the bubble
 
 
