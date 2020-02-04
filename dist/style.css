@@ -2,7 +2,7 @@ html, body {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: Helvetica, Calibri, Roboto, Open Sans, sans-serif;
+	font-family: Kalam;
 	-webkit-backface-visibility: hidden;
   /* background-color: gray; */
   background: linear-gradient(-45deg, gray, lightgray, black, gray ); 
@@ -17,7 +17,7 @@ html, body {
 
 
 .header {
-  padding: 10px 25px 10px 25px;
+  padding: 0px 25px 10px 25px;
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -46,7 +46,8 @@ html, body {
 
 h1 {
 	color: rgb(167, 130, 82);
-	font-size: 45px;
+  font-size: 50px;
+  font-family: Kalam;
 }
 
 

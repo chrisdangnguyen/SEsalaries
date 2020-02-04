@@ -1,8 +1,8 @@
 # README
 
-# SEsalaries
+# moneyTree
 
-[Software Engineer Average Salaries](https://chrisdangnguyen.github.io/SEsalaries/)
+[moneyTree](https://chrisdangnguyen.github.io/SEsalaries/)
 
 ## Background
 
@@ -16,7 +16,7 @@ Present an appealing data visualization website that inform users of average sof
 
 ## Wireframes
 
-![sesalaries home page](https://github.com/chrisdangnguyen/SEsalaries/blob/master/Bubble.png)
+![moneyTree home page](https://github.com/chrisdangnguyen/SEsalaries/blob/master/Bubble.png)
 
 
 ## Architecture and Technologies

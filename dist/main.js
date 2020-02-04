@@ -665,6 +665,7 @@ function code() {
     .attr("transform", "translate( 100, 200 )")
     .style("font-size", "18px")
     .style("font-weight", "thin")
+    .style("font-family", "Kalam")
     .style("fill", "rgb(167, 130, 82)")
     .call(legendOrdinal)
 
