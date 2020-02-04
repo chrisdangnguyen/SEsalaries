@@ -132,28 +132,28 @@ let data = [
   {
     cat: "Boston",
     name: "Software Engineer 1",
-    value: 25,
+    value: 35,
     icon: "./img/boston.png",
     desc: "$77,323"
   },
   {
     cat: "Boston",
     name: "Software Engineer 2",
-    value: 50,
+    value: 75,
     icon: "./img/boston.png",
     desc: "$99,232"
   },
   {
     cat: "Boston",
     name: "Software Engineer 3",
-    value: 125,
+    value: 175,
     icon: "./img/boston.png",
     desc: "$123,101"
   },
   {
     cat: "Boston",
     name: "Software Engineer 4",
-    value: 200,
+    value: 275,
     icon: "./img/boston.png",
     desc: "$148,160"
   },
@@ -167,28 +167,28 @@ let data = [
   {
     cat: "Chicago",
     name: "Software Engineer 1",
-    value: 25,
+    value: 35,
     icon: "./img/chicago.png",
     desc: "$72,617"
   },
   {
     cat: "Chicago",
     name: "Software Engineer 2",
-    value: 50,
+    value: 75,
     icon: "./img/chicago.png",
     desc: "$93,192"
   },
   {
     cat: "Chicago",
     name: "Software Engineer 3",
-    value: 125,
+    value: 175,
     icon: "./img/chicago.png",
     desc: "$115,608"
   },
   {
     cat: "Chicago",
     name: "Software Engineer 4",
-    value: 200,
+    value: 275,
     icon: "./img/chicago.png",
     desc: "$139,142"
   },
@@ -202,28 +202,28 @@ let data = [
   {
     cat: "Dallas",
     name: "Software Engineer 1",
-    value: 25,
+    value: 35,
     icon: "./img/dallas.png",
     desc: "$67,845"
   },
   {
     cat: "Dallas",
     name: "Software Engineer 2",
-    value: 50,
+    value: 75,
     icon: "./img/dallas.png",
     desc: "$87,068"
   },
   {
     cat: "Dallas",
     name: "Software Engineer 3",
-    value: 125,
+    value: 175,
     icon: "./img/dallas.png",
     desc: "$108,012"
   },
   {
     cat: "Dallas",
     name: "Software Engineer 4",
-    value: 200,
+    value: 275,
     icon: "./img/dallas.png",
     desc: "$129,999"
   },
@@ -237,28 +237,28 @@ let data = [
   {
     cat: "Los Angeles",
     name: "Software Engineer 1",
-    value: 25,
+    value: 35,
     icon: "./img/los_angeles.png",
     desc: "$77,117"
   },
   {
     cat: "Los Angeles",
     name: "Software Engineer 2",
-    value: 50,
+    value: 75,
     icon: "./img/los_angeles.png",
     desc: "$98,968"
   },
   {
     cat: "Los Angeles",
     name: "Software Engineer 3",
-    value: 125,
+    value: 175,
     icon: "./img/los_angeles.png",
     desc: "$112,773"
   },
   {
     cat: "Los Angeles",
     name: "Software Engineer 4",
-    value: 200,
+    value: 275,
     icon: "./img/los_angeles.png",
     desc: "$147,766"
   },
@@ -272,28 +272,28 @@ let data = [
   {
     cat: "Miami",
     name: "Software Engineer 1",
-    value: 25,
+    value: 35,
     icon: "./img/miami.png",
     desc: "$66,691"
   },
   {
     cat: "Miami",
     name: "Software Engineer 2",
-    value: 50,
+    value: 75,
     icon: "./img/miami.png",
     desc: "$85,587"
   },
   {
     cat: "Miami",
     name: "Software Engineer 3",
-    value: 125,
+    value: 175,
     icon: "./img/miami.png",
     desc: "$106,174"
   },
   {
     cat: "Miami",
     name: "Software Engineer 4",
-    value: 200,
+    value: 275,
     icon: "./img/miami.png",
     desc: "$127,787"
   },
@@ -307,28 +307,28 @@ let data = [
   {
     cat: "New York",
     name: "Software Engineer 1",
-    value: 25,
+    value: 35,
     icon: "./img/new_york.png",
     desc: "$82,892"
   },
   {
     cat: "New York",
     name: "Software Engineer 2",
-    value: 50,
+    value: 75,
     icon: "./img/new_york.png",
     desc: "$106,379"
   },
   {
     cat: "New York",
     name: "Software Engineer 3",
-    value: 125,
+    value: 175,
     icon: "./img/new_york.png",
     desc: "$131,967"
   },
   {
     cat: "New York",
     name: "Software Engineer 4",
-    value: 200,
+    value: 275,
     icon: "./img/new_york.png",
     desc: "$158,832"
   },
@@ -342,28 +342,28 @@ let data = [
   {
     cat: "Philadelphia",
     name: "Software Engineer 1",
-    value: 25,
+    value: 35,
     icon: "./img/philadelphia.png",
     desc: "$73,580"
   },
   {
     cat: "Philadelphia",
     name: "Software Engineer 2",
-    value: 50,
+    value: 75,
     icon: "./img/philadelphia.png",
     desc: "$94,440"
   },
   {
     cat: "Philadelphia",
     name: "Software Engineer 3",
-    value: 125,
+    value: 175,
     icon: "./img/philadelphia.png",
     desc: "$117,157"
   },
   {
     cat: "Philadelphia",
     name: "Software Engineer 4",
-    value: 200,
+    value: 275,
     icon: "./img/philadelphia.png",
     desc: "$141,006"
   },
@@ -377,28 +377,28 @@ let data = [
   {
     cat: "San Diego",
     name: "Software Engineer 1",
-    value: 25,
+    value: 35,
     icon: "./img/san_diego.png",
     desc: "$73,656"
   },
   {
     cat: "San Diego",
     name: "Software Engineer 2",
-    value: 50,
+    value: 75,
     icon: "./img/san_diego.png",
-    desc: "$95,525"
+    desc: "$95,535"
   },
   {
     cat: "San Diego",
     name: "Software Engineer 3",
-    value: 125,
+    value: 175,
     icon: "./img/san_diego.png",
     desc: "$117,262"
   },
   {
     cat: "San Diego",
     name: "Software Engineer 4",
-    value: 200,
+    value: 275,
     icon: "./img/san_diego.png",
     desc: "$141,133"
   },
@@ -412,28 +412,28 @@ let data = [
   {
     cat: "San Francisco",
     name: "Software Engineer 1",
-    value: 25,
+    value: 35,
     icon: "./img/san_francisco.png",
     desc: "$85,838"
   },
   {
     cat: "San Francisco",
     name: "Software Engineer 2",
-    value: 50,
+    value: 75,
     icon: "./img/san_francisco.png",
     desc: "$110,160"
   },
   {
     cat: "San Francisco",
     name: "Software Engineer 3",
-    value: 125,
+    value: 175,
     icon: "./img/san_francisco.png",
     desc: "$136,657"
   },
   {
     cat: "San Francisco",
     name: "Software Engineer 4",
-    value: 200,
+    value: 275,
     icon: "./img/san_francisco.png",
     desc: "$164,476"
   },
@@ -447,28 +447,28 @@ let data = [
   {
     cat: "Seattle",
     name: "Software Engineer 1",
-    value: 25,
+    value: 35,
     icon: "./img/seattle.png",
     desc: "$74,946"
   },
   {
     cat: "Seattle",
     name: "Software Engineer 2",
-    value: 50,
+    value: 75,
     icon: "./img/seattle.png",
     desc: "$96,181"
   },
   {
     cat: "Seattle",
     name: "Software Engineer 3",
-    value: 125,
+    value: 175,
     icon: "./img/seattle.png",
     desc: "$119,316"
   },
   {
     cat: "Seattle",
     name: "Software Engineer 4",
-    value: 200,
+    value: 275,
     icon: "./img/seattle.png",
     desc: "$143,605"
   }
@@ -508,6 +508,7 @@ function code() {
   let height = +svg.attr("height");
   let centerX = width * 0.55;
   let centerY = height * 0.5;
+  // let strength = 0.1;
   let focusedNode;
 
   // let format = d3.format(",d");
@@ -527,8 +528,8 @@ function code() {
     .forceSimulation()
     .force("charge", d3.forceManyBody())
     .force("collide", forceCollide)
-    .force("x", d3.forceX(centerX))
-    .force("y", d3.forceY(centerY));
+    .force("x", d3.forceX(centerX)) //.strength(strength))
+    .force("y", d3.forceY(centerY)); //.strength(strength));
 
   // reduce number of circles on mobile screen due to slow computation
   // if (
@@ -596,10 +597,10 @@ function code() {
     .attr("r", 0)
     .style("fill", d => scaleColor(d.cat))
     .attr("id", d => d.cat)
-    .style("opacity", 0.5)
+    .style("opacity", 1)
     .transition()
-    .duration(300)
-    // .ease(d3.easeElasticOut)
+    .duration(3000)
+    .ease(d3.easeElasticOut)
     .tween("circleIn", d => {
       let i = d3.interpolateNumber(0, d.radius);
       return t => {
@@ -664,7 +665,7 @@ function code() {
     .attr("transform", "translate( 100, 200 )")
     .style("font-size", "18px")
     .style("font-weight", "thin")
-    .style("fill", "whitesmoke")
+    .style("fill", "rgb(167, 130, 82)")
     .call(legendOrdinal)
 
   document.addEventListener('DOMContentLoaded', () => {
@@ -675,8 +676,11 @@ function code() {
 
 
   document.addEventListener('DOMContentLoaded', () => {
+    var clicked = false;
+    console.log(clicked)
     document.querySelectorAll(".legendCells > g").forEach((el) => {
         el.onclick = function(){
+
           node.filter(function(d) {
             return d.id !== el.id 
           }).style("opacity", 0.1)
@@ -684,14 +688,26 @@ function code() {
           node.filter(function (d) {
             return d.id === el.id
           }).style("opacity", 1)
+
+          clicked = true;
+          console.log(clicked)
         }
+
     });
-
-
-
+            
+    // if (clicked) {
+    // svg.on("click", () => {
+    //   node.style("opacity", 1)
+    //   clicked = false;
+    //   console.log(clicked)
+    //   })
+    // }
   })
+  
+  
+          
 
-  //------------------------------------------------------------------------------
+          //------------------------------------------------------------------------------
   //small circle in the bubble
 
 
@@ -702,13 +718,13 @@ function code() {
     .append("foreignObject")
     .classed("circle-overlay hidden", true)
     .attr("x", -550 * 0.5 * 0.8)
-    .attr("y", -200 * 0.5 * 0.8)
+    .attr("y", -125 * 0.5 * 0.8)
     .attr("height", 350 * 0.8)
     .attr("width", 550 * 0.8)
     .append("xhtml:div")
     .classed("circle-overlay__inner", true);
-
-  infoBox
+    
+    infoBox
     .append("h2")
     .classed("circle-overlay__title", true)
     .text(d => d.name);
@@ -716,7 +732,7 @@ function code() {
   infoBox
     .append("p")
     .classed("circle-overlay__body", true)
-    .html(d => d.desc)
+    .html(d => d.desc);
 
 
 
@@ -728,6 +744,7 @@ function code() {
 
   node.on("click", currentNode => {
     d3.event.stopPropagation();
+
     let currentTarget = d3.event.currentTarget; // the <g> el
 
     if (currentNode === focusedNode) {
@@ -736,10 +753,11 @@ function code() {
     let lastNode = focusedNode;
     focusedNode = currentNode;
 
-    simulation.alphaTarget(0.2).restart();
+    simulation.alphaTarget(1).restart();
     // hide all circle-overlay
     d3.selectAll(".circle-overlay").classed("hidden", true);
-    d3.selectAll(".node-icon").classed("node-icon--faded", false).style("opacity", 0.8);
+    d3.selectAll(".node-icon").classed("node-icon--faded", false).style("opacity", 1);
+    node.style("opacity", 1);
 
     // don't fix last node to center anymore
     if (lastNode) {
@@ -747,6 +765,7 @@ function code() {
       lastNode.fy = null;
       node
         .filter((d, i) => i === lastNode.index)
+        .style("opacity", 1)
         .transition()
         .duration(1000)
         .ease(d3.easePolyOut)
@@ -799,6 +818,7 @@ function code() {
   d3.select(document).on("click", () => {
     let target = d3.event.target;
 
+
     if (!target.closest("#circle-overlay") && focusedNode) {
       focusedNode.fx = null;
       focusedNode.fy = null;
@@ -806,6 +826,7 @@ function code() {
       d3.transition()
         .duration(2000)
         .ease(d3.easePolyOut)
+        // .style("opacity", 1)
         .tween("moveOut", function() {
           console.log("tweenMoveOut", focusedNode);
           let ir = d3.interpolateNumber(focusedNode.r, focusedNode.radius);
@@ -826,7 +847,7 @@ function code() {
       d3.selectAll(".circle-overlay").classed("hidden", true);
       d3.selectAll(".node-icon")
         .classed("node-icon--faded", false)
-        .style("opacity", 0.8);
+        .style("opacity", 1);
     }
   });
 
@@ -845,7 +866,7 @@ function code() {
     //Container for the gradients
   // var defs = svg.append("defs");
 
-  // //Filter for the outside glow
+  // // //Filter for the outside glow
   // var filter = defs.append("filter")
   //     .attr("id","glow");
   // filter.append("feGaussianBlur")
