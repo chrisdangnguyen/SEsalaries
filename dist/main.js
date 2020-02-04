@@ -597,7 +597,7 @@ function code() {
     .attr("r", 0)
     .style("fill", d => scaleColor(d.cat))
     .attr("id", d => d.cat)
-    .style("opacity", 1)
+    .style("opacity", 0.7)
     .transition()
     .duration(3000)
     .ease(d3.easeElasticOut)
@@ -766,7 +766,6 @@ function code() {
       lastNode.fy = null;
       node
         .filter((d, i) => i === lastNode.index)
-        .style("opacity", 1)
         .transition()
         .duration(1000)
         .ease(d3.easePolyOut)
