@@ -2,7 +2,7 @@
 
 # moneyTree
 
-[moneyTree](https://chrisdangnguyen.github.io/SEsalaries/)
+[moneyTree](https://chrisdangnguyen.github.io/moneyTree/)
 
 ## Background
 
@@ -16,7 +16,7 @@ Present an appealing data visualization website that inform users of average sof
 
 ## Wireframes
 
-![moneyTree home page](https://github.com/chrisdangnguyen/SEsalaries/blob/master/Bubble.png)
+![moneyTree home page](https://github.com/chrisdangnguyen/moneyTree/blob/master/Bubble.png)
 
 
 ## Architecture and Technologies
@@ -26,11 +26,11 @@ Present an appealing data visualization website that inform users of average sof
 
 ## Implementation Timeline
 
-Day 1: Setup all necessary modules, webpack up and running, get the barebone of the project started. Gather all necessary data and learn to use the API.Learn vanilladom.
+Day 1: Setup all necessary modules, webpack up and running, get the barebone of the project started. Gather all necessary data and learn to use the API.
 
 Day 2:  Continue learning how to implement and function the API. Implement and learn proper usage of D3. Be able to render at least 1 city statistics with full functionality and features. 
 
-Day 3: Finish adding all the other cities and make sure all are functioning properly with D3.
+Day 3: Finish adding all cities and make sure all are functioning properly with D3.
 
-Day 4: Be able to drag the bubble arounds and clicking the bubble will enlarge it. 
+Day 4: Be able to drag the bubbles around and clicking the bubble will enlarge it. 
 
