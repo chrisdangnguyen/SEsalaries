@@ -1,8 +1,8 @@
 # README
 
-# moneyTree
+# MoneyTree
 
-[moneytree](https://chrisdangnguyen.github.io/moneytree/)
+[MoneyTree](https://chrisdangnguyen.github.io/moneytree/)
 
 ## Background
 
