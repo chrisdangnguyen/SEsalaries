@@ -2,7 +2,7 @@
 
 # moneyTree
 
-[moneyTree](https://chrisdangnguyen.github.io/moneyTree/)
+[moneytree](https://chrisdangnguyen.github.io/moneytree/)
 
 ## Background
 
