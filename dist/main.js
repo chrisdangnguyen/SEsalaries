@@ -983,7 +983,7 @@ function code() {
 }
 
 // main.innerHTML = code();
-module.exports = code();
+module.export = code();
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
 
 /***/ })

@@ -396,4 +396,4 @@ function code() {
 }
 
 // main.innerHTML = code();
-module.exports = code();
+module.export = code();
