@@ -388,6 +388,15 @@ let data = [
   // },
   {
     cat: "Seattle",
+    name: "Software Engineer 4",
+    value: 275,
+    icon: "./img/seattle.png",
+    desc: "$143,879",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iv/seattle-wa"
+  },
+  {
+    cat: "Seattle",
     name: "Software Engineer 1",
     value: 35,
     icon: "./img/seattle.png",

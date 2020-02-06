@@ -5,14 +5,14 @@ html, body {
   font-family: 'Assistant', sans-serif;
   -webkit-backface-visibility: hidden;
   /* background-color: black; */
-  background: linear-gradient(-45deg, gray, lightgray, rgb(43, 42, 42), rgb(18, 145, 18) ); 
+  background: linear-gradient(-45deg, rgb(18, 145, 18), lightgray, rgb(43, 42, 42), rgb(18, 145, 18) ); 
 	background-size: 400% 400%;
 	-webkit-animation: gradient 15s ease infinite;
   animation: gradient 15s ease infinite;
 } 
 
 /* body {
-  background-image: url("../img/background5.jpg");
+  background-image: url("../img/background.jpg");
   height: 100vh;
   width: 100%;
   background-position: center;
@@ -27,12 +27,17 @@ html, body {
 /* header bar */
 
 
-
 .header {
-  padding: 0px 25px 0px 25px;
+  padding: 15px 100px 35px 100px;
   display: flex;
   justify-content: space-between;
   align-content: center;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .header-right {
@@ -41,50 +46,64 @@ html, body {
   align-items: center;
 }
 
-.header-mid {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
 #github {
   padding-right: 5px;
-  width: 77px;
-  height: 75px;
+  width: 75px;
+  height: 70px;
   background: transparent;
 }
 
 #linkedin {
   padding-left: 5px;
-  height: 75px;
+  padding-right: 5px;
+  height: 70px;
   width: 80px;
+  
+}
 
+#angel {
+  padding-left: 5px;
+  height: 70px;
+  width: 60px;
 }
 
 #leaves {
-  padding-right: 5px;
-  height: 75px;
+  padding-right: 10px;
+  height: 70px;
   width: 80px;
-
+  
 }
-
 
 h1 {
   font-size: 50px;
   /* font-family: 'Archivo', sans-serif; */
-
+  padding-right: 5px;
   font-family: 'Assistant', sans-serif;
   /* font-weight: thin; */
-  letter-spacing: 10px;
+  letter-spacing: 7px;
   color: white;
   -webkit-box-reflect: below -20px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(255, 255, 255, 0.096)));
-  text-shadow: -6px 0 1px black;
+  text-shadow: -5px 0 1px black;
+  margin: 0px;
 }
 
 
-#github:hover, #linkedin:hover {
+#github:hover, #linkedin:hover, #angel:hover {
   transform: scale(1.25);
 }
+
+a {
+  text-decoration: none;
+}
+
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 25px 10px 25px;
+  align-content: center;
+}
+
 
 /* -------------------------------------------------------------------------- */
 /* legend */
@@ -96,6 +115,7 @@ h1 {
 svg {
 	margin:auto;
   display:block;
+  padding-top: 10px;
 
 }
 
@@ -114,6 +134,10 @@ svg {
 	height: 100%;
 }
 
+.circle-overlay__link:hover {
+  opacity: 0.2;
+}
+
 .hidden {
 	display: none;
 }
@@ -124,7 +148,8 @@ svg {
 	fill: black;
 }
 
-
+/* -------------------------------------------------------------------------- */
+/* gradient background */
 
 @-webkit-keyframes gradient {
 	0% {
@@ -154,8 +179,87 @@ svg {
 /* -------------------------------------------------------------------------- */
 /* legend cells */
 
+.cell:hover {
+  opacity: 0.3;
+}
 
 
+/* -------------------------------------------------------------------------- */
+/* modal */
+
+/* .modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto;
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+} */
+
+/* Modal Content/Box */
+/* .modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; 
+
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+} */
+
+/* -------------------------------------------------------------------------- */
+  /* about read */
+
+.container {
+    background: transparent;
+    /* position:relative; */
+    margin:0 auto;
+    clear:left;
+    height:auto;
+    z-index: 0;
+    text-align:center;
+    width: 60%;
+    height: auto;
+    font-size: 16px;
+    color:#fff;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 5px;
+    display: flex;
+    padding: 0px;
+    border-color: transparent;
+    /* background-color: gray; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 10px rgba(0,0,0,0.3);
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+}
+
+
+.foot {
+  font-family: 'Assistant', sans-serif;
+  color: white;
+}
 
 
 /* falling stars  */
