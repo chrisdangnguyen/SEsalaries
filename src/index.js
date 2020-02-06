@@ -8,14 +8,17 @@ function code() {
   let svg = d3.select("svg");
   let width = document.body.clientWidth; // get width in pixels
   let height = +svg.attr("height");
-  let centerX = width * 0.55;
+  let centerX = width * 0.5;
   let centerY = height * 0.5;
-  // let strength = 0.1;
+  let strength = 0.05;
   let focusedNode;
 
   // let format = d3.format(",d");
 
-  let scaleColor = d3.scaleOrdinal(d3.schemeSet3);
+  // let scaleColor = d3.scaleOrdinal(d3.schemePastel1);
+  let scaleColor = d3.scaleOrdinal(['#5FAAE3', '#BAEBFA', '#FEF3D8', '#F2B5AF', 
+  '#939BCB', '#13436B', '#BEC7B4', '#BEE3C0', '#F3DBE0', '#CE9DD9']);
+
 
   // use pack to calculate radius of the circle
   let pack = d3
@@ -23,15 +26,15 @@ function code() {
     .size([width, height])
     .padding(2);
 
-  let forceCollide = d3.forceCollide(d => d.r);
+  let forceCollide = d3.forceCollide(d => d.r + 1);
 
   // use the force
   let simulation = d3
     .forceSimulation()
     .force("charge", d3.forceManyBody())
     .force("collide", forceCollide)
-    .force("x", d3.forceX(centerX)) //.strength(strength))
-    .force("y", d3.forceY(centerY)); //.strength(strength));
+    .force("x", d3.forceX(centerX).strength(strength))
+    .force("y", d3.forceY(centerY).strength(strength));
 
   // reduce number of circles on mobile screen due to slow computation
   // if (
@@ -62,7 +65,9 @@ function code() {
         name: data.name,
         value: data.value,
         icon: data.icon,
-        desc: data.desc
+        desc: data.desc,
+        link: data.link,
+        linkUrl: data.linkUrl
       };
     });
   simulation.nodes(nodes).on("tick", ticked);
@@ -101,8 +106,8 @@ function code() {
     .attr("id", d => d.cat)
     .style("opacity", 0.7)
     .transition()
-    .duration(3000)
-    .ease(d3.easeElasticOut)
+    .duration(100)
+    // .ease(d3.easeElasticOut)
     .tween("circleIn", d => {
       let i = d3.interpolateNumber(0, d.radius);
       return t => {
@@ -146,12 +151,9 @@ function code() {
   // node.append("title").text(d => d.cat + "::" + d.name + "\n" + format(d.value));
 
 
-
-
 //------------------------------------------------------------------------------
 
 // Legend 
-
 
 
   let legendOrdinal = d3
@@ -167,8 +169,8 @@ function code() {
     .attr("transform", "translate( 100, 200 )")
     .style("font-size", "18px")
     .style("font-weight", "thin")
-    .style("font-family", "Kalam")
-    .style("fill", "rgb(167, 130, 82)")
+    .style("font-family", "Assistant, sans - serif")
+    .style("fill", "white")
     .call(legendOrdinal)
 
   document.addEventListener('DOMContentLoaded', () => {
@@ -179,15 +181,12 @@ function code() {
 
 
 
-  
 //------------------------------------------------------------------------------
 // filter by city 
 
 
-
   document.addEventListener('DOMContentLoaded', () => {
     var clicked = false;
-    console.log(clicked)
     document.querySelectorAll(".legendCells > g").forEach((el) => {
         el.onclick = function(){
 
@@ -208,19 +207,15 @@ function code() {
     // svg.on("click", () => {
     //   node.style("opacity", 1)
     //   clicked = false;
-    //   console.log(clicked)
+    //   .log(clicked)
     //   })
     // }
   })
   
   
-          
-
+        
 //------------------------------------------------------------------------------
   //small circle in the bubble
-
-
-
 
 
   let infoBox = node
@@ -233,7 +228,7 @@ function code() {
     .append("xhtml:div")
     .classed("circle-overlay__inner", true);
     
-    infoBox
+  infoBox
     .append("h2")
     .classed("circle-overlay__title", true)
     .text(d => d.name);
@@ -244,6 +239,13 @@ function code() {
     .html(d => d.desc);
 
 
+//display link in infobox
+  infoBox
+    .append("a")
+    .classed("circle-overlay__body", true)
+    .attr("target", "_blank")
+    .html(d => d.link)
+    .attr('href', d => d.linkUrl);
 
 
 //------------------------------------------------------------------------------
@@ -262,7 +264,7 @@ function code() {
     let lastNode = focusedNode;
     focusedNode = currentNode;
 
-    simulation.alphaTarget(1).restart();
+    simulation.alphaTarget(0.2).restart();
     // hide all circle-overlay
     d3.selectAll(".circle-overlay").classed("hidden", true);
     d3.selectAll(".node-icon").classed("node-icon--faded", false).style("opacity", 1);
@@ -292,12 +294,10 @@ function code() {
       .duration(1000)
       .ease(d3.easePolyOut)
       .tween("moveIn", () => {
-        console.log("tweenMoveIn", currentNode);
         let ix = d3.interpolateNumber(currentNode.x, centerX);
         let iy = d3.interpolateNumber(currentNode.y, centerY);
         let ir = d3.interpolateNumber(currentNode.r, centerY * 0.5);
         return function(t) {
-          // console.log('i', ix(t), iy(t));
           currentNode.fx = ix(t);
           currentNode.fy = iy(t);
           currentNode.r = ir(t);
@@ -314,12 +314,11 @@ function code() {
           .classed("node-icon--faded", true)
           .style("opacity", 0);
       })
-      // .on("interrupt", () => {
-      //   console.log("move interrupt", currentNode);
-      //   currentNode.fx = null;
-      //   currentNode.fy = null;
-      //   simulation.alphaTarget(0);
-      // });
+      .on("interrupt", () => {
+        currentNode.fx = null;
+        currentNode.fy = null;
+        simulation.alphaTarget(0);
+      });
   });
 
   // blur
@@ -328,17 +327,15 @@ function code() {
 
     
 
-
     if (!target.closest("#circle-overlay") && focusedNode) {
       focusedNode.fx = null;
       focusedNode.fy = null;
       simulation.alphaTarget(0.2).restart();
       d3.transition()
-        .duration(2000)
+        .duration(1000)
         .ease(d3.easePolyOut)
         // .style("opacity", 1)
         .tween("moveOut", function() {
-          console.log("tweenMoveOut", focusedNode);
           let ir = d3.interpolateNumber(focusedNode.r, focusedNode.radius);
           return function(t) {
             focusedNode.r = ir(t);
@@ -349,9 +346,9 @@ function code() {
           focusedNode = null;
           simulation.alphaTarget(0);
         })
-        // .on("interrupt", () => {
-        //   simulation.alphaTarget(0);
-        // });
+        .on("interrupt", () => {
+          simulation.alphaTarget(0);
+        });
 
       // hide all circle-overlay
       d3.selectAll(".circle-overlay").classed("hidden", true);
@@ -368,27 +365,6 @@ function code() {
       .attr("r", d => d.r);
   }
 
-
-
-  //------------------------------------------------------------------------------
-  // for glow effect on nodes
-
-    //Container for the gradients
-  // var defs = svg.append("defs");
-
-  // // //Filter for the outside glow
-  // var filter = defs.append("filter")
-  //     .attr("id","glow");
-  // filter.append("feGaussianBlur")
-  //     .attr("stdDeviation","3.5")
-  //     .attr("result","coloredBlur");
-  // var feMerge = filter.append("feMerge");
-  // feMerge.append("feMergeNode")
-  //     .attr("in","coloredBlur");
-  // feMerge.append("feMergeNode")
-  //     .attr("in","SourceGraphic");
-
-  // d3.selectAll(".node").style("filter", "url(#glow)");
   
 }
 

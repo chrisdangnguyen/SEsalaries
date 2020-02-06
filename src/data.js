@@ -4,28 +4,36 @@ let data = [
     name: "Software Engineer 1",
     value: 35,
     icon: "./img/boston.png",
-    desc: "$77,323"
+    desc: "$77,471",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-i/boston-ma"
   },
   {
     cat: "Boston",
     name: "Software Engineer 2",
     value: 75,
     icon: "./img/boston.png",
-    desc: "$99,232"
+    desc: "$99,421",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-ii/boston-ma"
   },
   {
     cat: "Boston",
     name: "Software Engineer 3",
     value: 175,
     icon: "./img/boston.png",
-    desc: "$123,101"
+    desc: "$123,336",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iii/boston-ma"
   },
   {
     cat: "Boston",
     name: "Software Engineer 4",
     value: 275,
     icon: "./img/boston.png",
-    desc: "$148,160"
+    desc: "$148,443",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iv/boston-ma"
   },
   // {
   //   cat: "Boston",
@@ -39,28 +47,36 @@ let data = [
     name: "Software Engineer 1",
     value: 35,
     icon: "./img/chicago.png",
-    desc: "$72,617"
+    desc: "$72,756",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-i/chicago-il"
   },
   {
     cat: "Chicago",
     name: "Software Engineer 2",
     value: 75,
     icon: "./img/chicago.png",
-    desc: "$93,192"
+    desc: "$93,369",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-ii/chicago-il"
   },
   {
     cat: "Chicago",
     name: "Software Engineer 3",
     value: 175,
     icon: "./img/chicago.png",
-    desc: "$115,608"
+    desc: "$115,829",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iii/chicago-il"
   },
   {
     cat: "Chicago",
     name: "Software Engineer 4",
     value: 275,
     icon: "./img/chicago.png",
-    desc: "$139,142"
+    desc: "$139,407",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iv/chicago-il"
   },
   // {
   //   cat: "Chicago",
@@ -74,28 +90,36 @@ let data = [
     name: "Software Engineer 1",
     value: 35,
     icon: "./img/dallas.png",
-    desc: "$67,845"
+    desc: "$67,975",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-i/dallas-tx"
   },
   {
     cat: "Dallas",
     name: "Software Engineer 2",
     value: 75,
     icon: "./img/dallas.png",
-    desc: "$87,068"
+    desc: "$87,234",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-ii/dallas-tx"
   },
   {
     cat: "Dallas",
     name: "Software Engineer 3",
     value: 175,
     icon: "./img/dallas.png",
-    desc: "$108,012"
+    desc: "$108,218",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iii/dallas-tx"
   },
   {
     cat: "Dallas",
     name: "Software Engineer 4",
     value: 275,
     icon: "./img/dallas.png",
-    desc: "$129,999"
+    desc: "$130,247",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iv/dallas-tx"
   },
   // {
   //   cat: "Dallas",
@@ -109,28 +133,36 @@ let data = [
     name: "Software Engineer 1",
     value: 35,
     icon: "./img/los_angeles.png",
-    desc: "$77,117"
+    desc: "$77,265",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-i/los-angeles-ca"
   },
   {
     cat: "Los Angeles",
     name: "Software Engineer 2",
     value: 75,
     icon: "./img/los_angeles.png",
-    desc: "$98,968"
+    desc: "$99,156",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-ii/los-angeles-ca"
   },
   {
     cat: "Los Angeles",
     name: "Software Engineer 3",
     value: 175,
     icon: "./img/los_angeles.png",
-    desc: "$112,773"
+    desc: "$123,008",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iii/los-angeles-ca"
   },
   {
     cat: "Los Angeles",
     name: "Software Engineer 4",
     value: 275,
     icon: "./img/los_angeles.png",
-    desc: "$147,766"
+    desc: "$148,048",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iv/los-angeles-ca"
   },
   // {
   //   cat: "Los Angeles",
@@ -144,28 +176,36 @@ let data = [
     name: "Software Engineer 1",
     value: 35,
     icon: "./img/miami.png",
-    desc: "$66,691"
+    desc: "$66,819",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-i/miami-fl"
   },
   {
     cat: "Miami",
     name: "Software Engineer 2",
     value: 75,
     icon: "./img/miami.png",
-    desc: "$85,587"
+    desc: "$85,750",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-ii/miami-fl"
   },
   {
     cat: "Miami",
     name: "Software Engineer 3",
     value: 175,
     icon: "./img/miami.png",
-    desc: "$106,174"
+    desc: "$106,377",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iii/miami-fl"
   },
   {
     cat: "Miami",
     name: "Software Engineer 4",
     value: 275,
     icon: "./img/miami.png",
-    desc: "$127,787"
+    desc: "$128,031",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iv/miami-fl"
   },
   // {
   //   cat: "Miami",
@@ -179,28 +219,36 @@ let data = [
     name: "Software Engineer 1",
     value: 35,
     icon: "./img/new_york.png",
-    desc: "$82,892"
+    desc: "$83,052",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-i/new-york-ny"
   },
   {
     cat: "New York",
     name: "Software Engineer 2",
     value: 75,
     icon: "./img/new_york.png",
-    desc: "$106,379"
+    desc: "$106,582",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-ii/new-york-ny"
   },
   {
     cat: "New York",
     name: "Software Engineer 3",
     value: 175,
     icon: "./img/new_york.png",
-    desc: "$131,967"
+    desc: "$132,220",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iii/new-york-ny"
   },
   {
     cat: "New York",
     name: "Software Engineer 4",
     value: 275,
     icon: "./img/new_york.png",
-    desc: "$158,832"
+    desc: "$159,135",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iv/new-york-ny"
   },
   // {
   //   cat: "New York",
@@ -214,28 +262,36 @@ let data = [
     name: "Software Engineer 1",
     value: 35,
     icon: "./img/philadelphia.png",
-    desc: "$73,580"
+    desc: "$73,731",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-i/philadelphia-pa"
   },
   {
     cat: "Philadelphia",
     name: "Software Engineer 2",
     value: 75,
     icon: "./img/philadelphia.png",
-    desc: "$94,440"
+    desc: "$94,620",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-ii/philadelphia-pa"
   },
   {
     cat: "Philadelphia",
     name: "Software Engineer 3",
     value: 175,
     icon: "./img/philadelphia.png",
-    desc: "$117,157"
+    desc: "$117,380",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iii/philadelphia-pa"
   },
   {
     cat: "Philadelphia",
     name: "Software Engineer 4",
     value: 275,
     icon: "./img/philadelphia.png",
-    desc: "$141,006"
+    desc: "$141,275",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iv/philadelphia-pa"
   },
   // {
   //   cat: "Philadelphia",
@@ -249,28 +305,36 @@ let data = [
     name: "Software Engineer 1",
     value: 35,
     icon: "./img/san_diego.png",
-    desc: "$73,656"
+    desc: "$73,797",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-i/san-diego-ca"
   },
   {
     cat: "San Diego",
     name: "Software Engineer 2",
     value: 75,
     icon: "./img/san_diego.png",
-    desc: "$95,535"
+    desc: "$94,705",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-ii/san-diego-ca"
   },
   {
     cat: "San Diego",
     name: "Software Engineer 3",
     value: 175,
     icon: "./img/san_diego.png",
-    desc: "$117,262"
+    desc: "$117,486",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iii/san-diego-ca"
   },
   {
     cat: "San Diego",
     name: "Software Engineer 4",
     value: 275,
     icon: "./img/san_diego.png",
-    desc: "$141,133"
+    desc: "$141,403",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iv/san-diego-ca"
   },
   // {
   //   cat: "San Diego",
@@ -284,28 +348,36 @@ let data = [
     name: "Software Engineer 1",
     value: 35,
     icon: "./img/san_francisco.png",
-    desc: "$85,838"
+    desc: "$86,003",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-i/san-francisco-ca"
   },
   {
     cat: "San Francisco",
     name: "Software Engineer 2",
     value: 75,
     icon: "./img/san_francisco.png",
-    desc: "$110,160"
+    desc: "$110,370",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-ii/san-francisco-ca"
   },
   {
     cat: "San Francisco",
     name: "Software Engineer 3",
     value: 175,
     icon: "./img/san_francisco.png",
-    desc: "$136,657"
+    desc: "$136,918",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iii/san-francisco-ca"
   },
   {
     cat: "San Francisco",
     name: "Software Engineer 4",
     value: 275,
     icon: "./img/san_francisco.png",
-    desc: "$164,476"
+    desc: "$164,790",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iv/san-francisco-ca"
   },
   // {
   //   cat: "San Francisco",
@@ -319,28 +391,36 @@ let data = [
     name: "Software Engineer 1",
     value: 35,
     icon: "./img/seattle.png",
-    desc: "$74,946"
+    desc: "$75,090",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-i/seattle-wa"
   },
   {
     cat: "Seattle",
     name: "Software Engineer 2",
     value: 75,
     icon: "./img/seattle.png",
-    desc: "$96,181"
+    desc: "$96,364",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-ii/seattle-wa"
   },
   {
     cat: "Seattle",
     name: "Software Engineer 3",
     value: 175,
     icon: "./img/seattle.png",
-    desc: "$119,316"
+    desc: "$119,544",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iii/seattle-wa"
   },
   {
     cat: "Seattle",
     name: "Software Engineer 4",
     value: 275,
     icon: "./img/seattle.png",
-    desc: "$143,605"
+    desc: "$143,879",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iv/seattle-wa"
   }
   // {
   //   cat: "Seattle",

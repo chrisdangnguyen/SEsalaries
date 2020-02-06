@@ -1,26 +1,44 @@
 html, body {
 	padding: 0;
 	margin: 0;
-	box-sizing: border-box;
-	font-family: Kalam;
-	-webkit-backface-visibility: hidden;
-  /* background-color: gray; */
-  background: linear-gradient(-45deg, gray, lightgray, rgb(43, 42, 42), rgb(41, 41, 145) ); 
+  box-sizing: border-box;
+  font-family: 'Assistant', sans-serif;
+  -webkit-backface-visibility: hidden;
+  /* background-color: black; */
+  background: linear-gradient(-45deg, gray, lightgray, rgb(43, 42, 42), rgb(18, 145, 18) ); 
 	background-size: 400% 400%;
 	-webkit-animation: gradient 15s ease infinite;
-  animation: gradient 15s ease infinite; 
-}
+  animation: gradient 15s ease infinite;
+} 
+
+/* body {
+  background-image: url("../img/background5.jpg");
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+} */
 
 * {
 	box-sizing: inherit;
 }
 
+/* ---------------------------------------------------------------------------*/
+/* header bar */
+
+
 
 .header {
   padding: 0px 25px 0px 25px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-content: center;
+}
+
+.header-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .header-mid {
@@ -40,16 +58,36 @@ html, body {
   padding-left: 5px;
   height: 75px;
   width: 80px;
+
 }
 
+#leaves {
+  padding-right: 5px;
+  height: 75px;
+  width: 80px;
+
+}
 
 
 h1 {
-	color: rgb(167, 130, 82);
   font-size: 50px;
-  font-family: Kalam;
+  /* font-family: 'Archivo', sans-serif; */
+
+  font-family: 'Assistant', sans-serif;
+  /* font-weight: thin; */
+  letter-spacing: 10px;
+  color: white;
+  -webkit-box-reflect: below -20px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(255, 255, 255, 0.096)));
+  text-shadow: -6px 0 1px black;
 }
 
+
+#github:hover, #linkedin:hover {
+  transform: scale(1.25);
+}
+
+/* -------------------------------------------------------------------------- */
+/* legend */
 
 .legend-color {
   cursor: pointer;
@@ -65,7 +103,9 @@ svg {
 	font-size: 16px;
 	border-radius: 50%;
 	position: absolute;
-	overflow: hidden;
+  overflow: hidden;
+  font-family: 'Assistant', sans-serif;
+  color: white;
 
 }
 .circle-overlay__inner {
@@ -82,10 +122,6 @@ svg {
 }
 .legend-size circle {
 	fill: black;
-}
-
-element.style {
-	background-color: black;
 }
 
 
@@ -115,10 +151,14 @@ element.style {
 }
 
 
+/* -------------------------------------------------------------------------- */
+/* legend cells */
+
+
+
 
 
 /* falling stars  */
-
 
 /* html, body {
   height: 100%;

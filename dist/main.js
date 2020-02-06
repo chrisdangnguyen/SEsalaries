@@ -134,28 +134,36 @@ let data = [
     name: "Software Engineer 1",
     value: 35,
     icon: "./img/boston.png",
-    desc: "$77,323"
+    desc: "$77,471",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-i/boston-ma"
   },
   {
     cat: "Boston",
     name: "Software Engineer 2",
     value: 75,
     icon: "./img/boston.png",
-    desc: "$99,232"
+    desc: "$99,421",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-ii/boston-ma"
   },
   {
     cat: "Boston",
     name: "Software Engineer 3",
     value: 175,
     icon: "./img/boston.png",
-    desc: "$123,101"
+    desc: "$123,336",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iii/boston-ma"
   },
   {
     cat: "Boston",
     name: "Software Engineer 4",
     value: 275,
     icon: "./img/boston.png",
-    desc: "$148,160"
+    desc: "$148,443",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iv/boston-ma"
   },
   // {
   //   cat: "Boston",
@@ -169,28 +177,36 @@ let data = [
     name: "Software Engineer 1",
     value: 35,
     icon: "./img/chicago.png",
-    desc: "$72,617"
+    desc: "$72,756",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-i/chicago-il"
   },
   {
     cat: "Chicago",
     name: "Software Engineer 2",
     value: 75,
     icon: "./img/chicago.png",
-    desc: "$93,192"
+    desc: "$93,369",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-ii/chicago-il"
   },
   {
     cat: "Chicago",
     name: "Software Engineer 3",
     value: 175,
     icon: "./img/chicago.png",
-    desc: "$115,608"
+    desc: "$115,829",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iii/chicago-il"
   },
   {
     cat: "Chicago",
     name: "Software Engineer 4",
     value: 275,
     icon: "./img/chicago.png",
-    desc: "$139,142"
+    desc: "$139,407",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iv/chicago-il"
   },
   // {
   //   cat: "Chicago",
@@ -204,28 +220,36 @@ let data = [
     name: "Software Engineer 1",
     value: 35,
     icon: "./img/dallas.png",
-    desc: "$67,845"
+    desc: "$67,975",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-i/dallas-tx"
   },
   {
     cat: "Dallas",
     name: "Software Engineer 2",
     value: 75,
     icon: "./img/dallas.png",
-    desc: "$87,068"
+    desc: "$87,234",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-ii/dallas-tx"
   },
   {
     cat: "Dallas",
     name: "Software Engineer 3",
     value: 175,
     icon: "./img/dallas.png",
-    desc: "$108,012"
+    desc: "$108,218",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iii/dallas-tx"
   },
   {
     cat: "Dallas",
     name: "Software Engineer 4",
     value: 275,
     icon: "./img/dallas.png",
-    desc: "$129,999"
+    desc: "$130,247",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iv/dallas-tx"
   },
   // {
   //   cat: "Dallas",
@@ -239,28 +263,36 @@ let data = [
     name: "Software Engineer 1",
     value: 35,
     icon: "./img/los_angeles.png",
-    desc: "$77,117"
+    desc: "$77,265",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-i/los-angeles-ca"
   },
   {
     cat: "Los Angeles",
     name: "Software Engineer 2",
     value: 75,
     icon: "./img/los_angeles.png",
-    desc: "$98,968"
+    desc: "$99,156",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-ii/los-angeles-ca"
   },
   {
     cat: "Los Angeles",
     name: "Software Engineer 3",
     value: 175,
     icon: "./img/los_angeles.png",
-    desc: "$112,773"
+    desc: "$123,008",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iii/los-angeles-ca"
   },
   {
     cat: "Los Angeles",
     name: "Software Engineer 4",
     value: 275,
     icon: "./img/los_angeles.png",
-    desc: "$147,766"
+    desc: "$148,048",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iv/los-angeles-ca"
   },
   // {
   //   cat: "Los Angeles",
@@ -274,28 +306,36 @@ let data = [
     name: "Software Engineer 1",
     value: 35,
     icon: "./img/miami.png",
-    desc: "$66,691"
+    desc: "$66,819",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-i/miami-fl"
   },
   {
     cat: "Miami",
     name: "Software Engineer 2",
     value: 75,
     icon: "./img/miami.png",
-    desc: "$85,587"
+    desc: "$85,750",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-ii/miami-fl"
   },
   {
     cat: "Miami",
     name: "Software Engineer 3",
     value: 175,
     icon: "./img/miami.png",
-    desc: "$106,174"
+    desc: "$106,377",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iii/miami-fl"
   },
   {
     cat: "Miami",
     name: "Software Engineer 4",
     value: 275,
     icon: "./img/miami.png",
-    desc: "$127,787"
+    desc: "$128,031",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iv/miami-fl"
   },
   // {
   //   cat: "Miami",
@@ -309,28 +349,36 @@ let data = [
     name: "Software Engineer 1",
     value: 35,
     icon: "./img/new_york.png",
-    desc: "$82,892"
+    desc: "$83,052",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-i/new-york-ny"
   },
   {
     cat: "New York",
     name: "Software Engineer 2",
     value: 75,
     icon: "./img/new_york.png",
-    desc: "$106,379"
+    desc: "$106,582",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-ii/new-york-ny"
   },
   {
     cat: "New York",
     name: "Software Engineer 3",
     value: 175,
     icon: "./img/new_york.png",
-    desc: "$131,967"
+    desc: "$132,220",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iii/new-york-ny"
   },
   {
     cat: "New York",
     name: "Software Engineer 4",
     value: 275,
     icon: "./img/new_york.png",
-    desc: "$158,832"
+    desc: "$159,135",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iv/new-york-ny"
   },
   // {
   //   cat: "New York",
@@ -344,28 +392,36 @@ let data = [
     name: "Software Engineer 1",
     value: 35,
     icon: "./img/philadelphia.png",
-    desc: "$73,580"
+    desc: "$73,731",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-i/philadelphia-pa"
   },
   {
     cat: "Philadelphia",
     name: "Software Engineer 2",
     value: 75,
     icon: "./img/philadelphia.png",
-    desc: "$94,440"
+    desc: "$94,620",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-ii/philadelphia-pa"
   },
   {
     cat: "Philadelphia",
     name: "Software Engineer 3",
     value: 175,
     icon: "./img/philadelphia.png",
-    desc: "$117,157"
+    desc: "$117,380",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iii/philadelphia-pa"
   },
   {
     cat: "Philadelphia",
     name: "Software Engineer 4",
     value: 275,
     icon: "./img/philadelphia.png",
-    desc: "$141,006"
+    desc: "$141,275",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iv/philadelphia-pa"
   },
   // {
   //   cat: "Philadelphia",
@@ -379,28 +435,36 @@ let data = [
     name: "Software Engineer 1",
     value: 35,
     icon: "./img/san_diego.png",
-    desc: "$73,656"
+    desc: "$73,797",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-i/san-diego-ca"
   },
   {
     cat: "San Diego",
     name: "Software Engineer 2",
     value: 75,
     icon: "./img/san_diego.png",
-    desc: "$95,535"
+    desc: "$94,705",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-ii/san-diego-ca"
   },
   {
     cat: "San Diego",
     name: "Software Engineer 3",
     value: 175,
     icon: "./img/san_diego.png",
-    desc: "$117,262"
+    desc: "$117,486",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iii/san-diego-ca"
   },
   {
     cat: "San Diego",
     name: "Software Engineer 4",
     value: 275,
     icon: "./img/san_diego.png",
-    desc: "$141,133"
+    desc: "$141,403",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iv/san-diego-ca"
   },
   // {
   //   cat: "San Diego",
@@ -414,28 +478,36 @@ let data = [
     name: "Software Engineer 1",
     value: 35,
     icon: "./img/san_francisco.png",
-    desc: "$85,838"
+    desc: "$86,003",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-i/san-francisco-ca"
   },
   {
     cat: "San Francisco",
     name: "Software Engineer 2",
     value: 75,
     icon: "./img/san_francisco.png",
-    desc: "$110,160"
+    desc: "$110,370",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-ii/san-francisco-ca"
   },
   {
     cat: "San Francisco",
     name: "Software Engineer 3",
     value: 175,
     icon: "./img/san_francisco.png",
-    desc: "$136,657"
+    desc: "$136,918",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iii/san-francisco-ca"
   },
   {
     cat: "San Francisco",
     name: "Software Engineer 4",
     value: 275,
     icon: "./img/san_francisco.png",
-    desc: "$164,476"
+    desc: "$164,790",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iv/san-francisco-ca"
   },
   // {
   //   cat: "San Francisco",
@@ -449,28 +521,36 @@ let data = [
     name: "Software Engineer 1",
     value: 35,
     icon: "./img/seattle.png",
-    desc: "$74,946"
+    desc: "$75,090",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-i/seattle-wa"
   },
   {
     cat: "Seattle",
     name: "Software Engineer 2",
     value: 75,
     icon: "./img/seattle.png",
-    desc: "$96,181"
+    desc: "$96,364",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-ii/seattle-wa"
   },
   {
     cat: "Seattle",
     name: "Software Engineer 3",
     value: 175,
     icon: "./img/seattle.png",
-    desc: "$119,316"
+    desc: "$119,544",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iii/seattle-wa"
   },
   {
     cat: "Seattle",
     name: "Software Engineer 4",
     value: 275,
     icon: "./img/seattle.png",
-    desc: "$143,605"
+    desc: "$143,879",
+    link: "Learn More",
+    linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iv/seattle-wa"
   }
   // {
   //   cat: "Seattle",
@@ -506,14 +586,17 @@ function code() {
   let svg = d3.select("svg");
   let width = document.body.clientWidth; // get width in pixels
   let height = +svg.attr("height");
-  let centerX = width * 0.55;
+  let centerX = width * 0.5;
   let centerY = height * 0.5;
-  // let strength = 0.1;
+  let strength = 0.05;
   let focusedNode;
 
   // let format = d3.format(",d");
 
-  let scaleColor = d3.scaleOrdinal(d3.schemeSet3);
+  // let scaleColor = d3.scaleOrdinal(d3.schemePastel1);
+  let scaleColor = d3.scaleOrdinal(['#5FAAE3', '#BAEBFA', '#FEF3D8', '#F2B5AF', 
+  '#939BCB', '#13436B', '#BEC7B4', '#BEE3C0', '#F3DBE0', '#CE9DD9']);
+
 
   // use pack to calculate radius of the circle
   let pack = d3
@@ -521,15 +604,15 @@ function code() {
     .size([width, height])
     .padding(2);
 
-  let forceCollide = d3.forceCollide(d => d.r);
+  let forceCollide = d3.forceCollide(d => d.r + 1);
 
   // use the force
   let simulation = d3
     .forceSimulation()
     .force("charge", d3.forceManyBody())
     .force("collide", forceCollide)
-    .force("x", d3.forceX(centerX)) //.strength(strength))
-    .force("y", d3.forceY(centerY)); //.strength(strength));
+    .force("x", d3.forceX(centerX).strength(strength))
+    .force("y", d3.forceY(centerY).strength(strength));
 
   // reduce number of circles on mobile screen due to slow computation
   // if (
@@ -560,7 +643,9 @@ function code() {
         name: data.name,
         value: data.value,
         icon: data.icon,
-        desc: data.desc
+        desc: data.desc,
+        link: data.link,
+        linkUrl: data.linkUrl
       };
     });
   simulation.nodes(nodes).on("tick", ticked);
@@ -599,8 +684,8 @@ function code() {
     .attr("id", d => d.cat)
     .style("opacity", 0.7)
     .transition()
-    .duration(3000)
-    .ease(d3.easeElasticOut)
+    .duration(100)
+    // .ease(d3.easeElasticOut)
     .tween("circleIn", d => {
       let i = d3.interpolateNumber(0, d.radius);
       return t => {
@@ -644,12 +729,9 @@ function code() {
   // node.append("title").text(d => d.cat + "::" + d.name + "\n" + format(d.value));
 
 
-
-
 //------------------------------------------------------------------------------
 
 // Legend 
-
 
 
   let legendOrdinal = d3
@@ -665,8 +747,8 @@ function code() {
     .attr("transform", "translate( 100, 200 )")
     .style("font-size", "18px")
     .style("font-weight", "thin")
-    .style("font-family", "Kalam")
-    .style("fill", "rgb(167, 130, 82)")
+    .style("font-family", "Assistant, sans - serif")
+    .style("fill", "white")
     .call(legendOrdinal)
 
   document.addEventListener('DOMContentLoaded', () => {
@@ -676,9 +758,13 @@ function code() {
   })
 
 
+
+//------------------------------------------------------------------------------
+// filter by city 
+
+
   document.addEventListener('DOMContentLoaded', () => {
     var clicked = false;
-    console.log(clicked)
     document.querySelectorAll(".legendCells > g").forEach((el) => {
         el.onclick = function(){
 
@@ -691,7 +777,6 @@ function code() {
           }).style("opacity", 1)
 
           clicked = true;
-          console.log(clicked)
         }
 
     });
@@ -700,19 +785,15 @@ function code() {
     // svg.on("click", () => {
     //   node.style("opacity", 1)
     //   clicked = false;
-    //   console.log(clicked)
+    //   .log(clicked)
     //   })
     // }
   })
   
   
-          
-
-          //------------------------------------------------------------------------------
+        
+//------------------------------------------------------------------------------
   //small circle in the bubble
-
-
-
 
 
   let infoBox = node
@@ -725,7 +806,7 @@ function code() {
     .append("xhtml:div")
     .classed("circle-overlay__inner", true);
     
-    infoBox
+  infoBox
     .append("h2")
     .classed("circle-overlay__title", true)
     .text(d => d.name);
@@ -736,6 +817,13 @@ function code() {
     .html(d => d.desc);
 
 
+//display link in infobox
+  infoBox
+    .append("a")
+    .classed("circle-overlay__body", true)
+    .attr("target", "_blank")
+    .html(d => d.link)
+    .attr('href', d => d.linkUrl);
 
 
 //------------------------------------------------------------------------------
@@ -754,7 +842,7 @@ function code() {
     let lastNode = focusedNode;
     focusedNode = currentNode;
 
-    simulation.alphaTarget(1).restart();
+    simulation.alphaTarget(0.2).restart();
     // hide all circle-overlay
     d3.selectAll(".circle-overlay").classed("hidden", true);
     d3.selectAll(".node-icon").classed("node-icon--faded", false).style("opacity", 1);
@@ -784,12 +872,10 @@ function code() {
       .duration(1000)
       .ease(d3.easePolyOut)
       .tween("moveIn", () => {
-        console.log("tweenMoveIn", currentNode);
         let ix = d3.interpolateNumber(currentNode.x, centerX);
         let iy = d3.interpolateNumber(currentNode.y, centerY);
         let ir = d3.interpolateNumber(currentNode.r, centerY * 0.5);
         return function(t) {
-          // console.log('i', ix(t), iy(t));
           currentNode.fx = ix(t);
           currentNode.fy = iy(t);
           currentNode.r = ir(t);
@@ -806,29 +892,28 @@ function code() {
           .classed("node-icon--faded", true)
           .style("opacity", 0);
       })
-      // .on("interrupt", () => {
-      //   console.log("move interrupt", currentNode);
-      //   currentNode.fx = null;
-      //   currentNode.fy = null;
-      //   simulation.alphaTarget(0);
-      // });
+      .on("interrupt", () => {
+        currentNode.fx = null;
+        currentNode.fy = null;
+        simulation.alphaTarget(0);
+      });
   });
 
   // blur
   d3.select(document).on("click", () => {
     let target = d3.event.target;
 
+    
 
     if (!target.closest("#circle-overlay") && focusedNode) {
       focusedNode.fx = null;
       focusedNode.fy = null;
       simulation.alphaTarget(0.2).restart();
       d3.transition()
-        .duration(2000)
+        .duration(1000)
         .ease(d3.easePolyOut)
         // .style("opacity", 1)
         .tween("moveOut", function() {
-          console.log("tweenMoveOut", focusedNode);
           let ir = d3.interpolateNumber(focusedNode.r, focusedNode.radius);
           return function(t) {
             focusedNode.r = ir(t);
@@ -839,9 +924,9 @@ function code() {
           focusedNode = null;
           simulation.alphaTarget(0);
         })
-        // .on("interrupt", () => {
-        //   simulation.alphaTarget(0);
-        // });
+        .on("interrupt", () => {
+          simulation.alphaTarget(0);
+        });
 
       // hide all circle-overlay
       d3.selectAll(".circle-overlay").classed("hidden", true);
@@ -858,27 +943,6 @@ function code() {
       .attr("r", d => d.r);
   }
 
-
-
-  //------------------------------------------------------------------------------
-  // for glow effect on nodes
-
-    //Container for the gradients
-  // var defs = svg.append("defs");
-
-  // // //Filter for the outside glow
-  // var filter = defs.append("filter")
-  //     .attr("id","glow");
-  // filter.append("feGaussianBlur")
-  //     .attr("stdDeviation","3.5")
-  //     .attr("result","coloredBlur");
-  // var feMerge = filter.append("feMerge");
-  // feMerge.append("feMergeNode")
-  //     .attr("in","coloredBlur");
-  // feMerge.append("feMergeNode")
-  //     .attr("in","SourceGraphic");
-
-  // d3.selectAll(".node").style("filter", "url(#glow)");
   
 }
 
