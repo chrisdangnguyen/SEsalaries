@@ -375,7 +375,7 @@ let data = [
     name: "Software Engineer 4",
     value: 275,
     icon: "./img/san_francisco.png",
-    desc: "$164,790",
+    desc: "$165,105",
     link: "Learn More",
     linkUrl: "https://www.salary.com/tools/salary-calculator/software-engineer-iv/san-francisco-ca"
   },
