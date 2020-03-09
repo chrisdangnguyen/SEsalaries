@@ -1,16 +1,11 @@
-# README
-
 # MoneyTree
+MoneyTree is an appealing data visualization website that inform users of average software engineer salaries for multiple levels across popular metropolitan cities in the United States. User will have the experience to easily access and retrieve information through a click of a few buttons. 
 
 [MoneyTree Live](https://chrisdangnguyen.github.io/moneytree/)
 
 ![home_page](home_page.png)
 
 ![home](home.gif)
-
-## Background
-
-MoneyTree is an appealing data visualization website that inform users of average software engineer salaries for multiple levels across popular metropolitan cities in the United States. User will have the experience to easily access and retrieve information through a click of a few buttons. 
 
 ## Technologies
 
@@ -86,9 +81,58 @@ let node = svg
   );
 ```
 
+<br/>  
+
 ![filter](filter.gif)
+```javascript
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll(".legendCells > g").forEach((el, idx) => {
+    el.setAttribute('id', el.textContent)
+  });
+})
+
+document.addEventListener('DOMContentLoaded', () => {
+  var clicked = false;
+  document.querySelectorAll(".legendCells > g").forEach((el) => {
+      el.onclick = function(){
+
+        node.filter(function(d) {
+          return d.id !== el.id 
+        }).style("opacity", 0.1)
+
+        node.filter(function (d) {
+          return d.id === el.id
+        }).style("opacity", 1)
+
+        clicked = true;
+      }
+  });
+})
+ ```
+ * An Id attribute were applied to all the legend cities. Clicking on a legend will filter the bubbles and display the bubbles correctly associated with the legend.
+ 
+ <br/>  
 
 ![bubble](bubble.gif)
+```javascript
+  infoBox
+    .append("h2")
+    .classed("circle-overlay__title", true)
+    .text(d => d.name);
+
+  infoBox
+    .append("p")
+    .classed("circle-overlay__body", true)
+    .html(d => d.desc);
+
+  infoBox
+    .append("a")
+    .classed("circle-overlay__link", true)
+    .attr("target", "_blank")
+    .html(d => d.link)
+    .attr('href', d => d.linkUrl);
+```
+* Display Software Engineer title, salary, and a direct link to learn more about the job title.
 
 ## Future Development
 * Implement an API of Software Engineer salaries for accurate data
