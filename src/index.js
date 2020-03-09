@@ -202,14 +202,6 @@ function code() {
         }
 
     });
-            
-    // if (clicked) {
-    // svg.on("click", () => {
-    //   node.style("opacity", 1)
-    //   clicked = false;
-    //   .log(clicked)
-    //   })
-    // }
   })
   
   
