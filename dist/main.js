@@ -776,21 +776,24 @@ function code() {
     var clicked = false;
     document.querySelectorAll(".legendCells > g").forEach((el) => {
         el.onclick = function(){
-
-          node.filter(function(d) {
-            return d.id !== el.id 
-          }).style("opacity", 0.1)
-
-          node.filter(function (d) {
-            return d.id === el.id
-          }).style("opacity", 1)
-
           clicked = true;
-        }
 
+          if (clicked === true) {
+            node.filter(function(d) {
+              return d.cat !== el.id 
+            }).style("opacity", 0.1)
+
+            node.filter(function (d) {
+              return d.cat === el.id
+            }).style("opacity", 1)
+          }
+        }  
     });
+
   })
+
   
+
   
         
 //------------------------------------------------------------------------------
